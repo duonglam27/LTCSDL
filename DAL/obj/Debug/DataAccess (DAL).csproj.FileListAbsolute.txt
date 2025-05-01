@@ -1,0 +1,9 @@
+D:\LapTrinhCSDL\Project Thực Hành\DAL\bin\Debug\DAL.dll
+D:\LapTrinhCSDL\Project Thực Hành\DAL\bin\Debug\DAL.pdb
+D:\LapTrinhCSDL\Project Thực Hành\DAL\bin\Debug\DTO.dll
+D:\LapTrinhCSDL\Project Thực Hành\DAL\bin\Debug\DTO.pdb
+D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DataAccess (DAL).csproj.AssemblyReference.cache
+D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DataAccess (DAL).csproj.CoreCompileInputs.cache
+D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DataAcce.93541D37.Up2Date
+D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DAL.dll
+D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,6 @@
+D:\LapTrinhCSDL\Project Thực Hành\DTO\bin\Debug\DTO.dll
+D:\LapTrinhCSDL\Project Thực Hành\DTO\bin\Debug\DTO.pdb
+D:\LapTrinhCSDL\Project Thực Hành\DTO\obj\Debug\Data Transfer Object (DTO).csproj.AssemblyReference.cache
+D:\LapTrinhCSDL\Project Thực Hành\DTO\obj\Debug\Data Transfer Object (DTO).csproj.CoreCompileInputs.cache
+D:\LapTrinhCSDL\Project Thực Hành\DTO\obj\Debug\DTO.dll
+D:\LapTrinhCSDL\Project Thực Hành\DTO\obj\Debug\DTO.pdb

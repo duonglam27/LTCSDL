@@ -1,0 +1,162 @@
+﻿namespace GUI
+{
+    partial class FormHome
+    {
+        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Button btnDangXuat;
+        private System.Windows.Forms.Button btnOrder;
+        private System.Windows.Forms.Button btnQuanLy;
+        private System.Windows.Forms.Button btnChamCong;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.lblWelcome = new System.Windows.Forms.Label();
+            this.btnDangXuat = new System.Windows.Forms.Button();
+            this.btnOrder = new System.Windows.Forms.Button();
+            this.btnQuanLy = new System.Windows.Forms.Button();
+            this.btnChamCong = new System.Windows.Forms.Button();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.lbnote = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panelLogo.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // lblWelcome
+            // 
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblWelcome.Location = new System.Drawing.Point(30, 16);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(211, 28);
+            this.lblWelcome.TabIndex = 0;
+            this.lblWelcome.Text = "Xin chào: [username]";
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.Location = new System.Drawing.Point(650, 16);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(109, 28);
+            this.btnDangXuat.TabIndex = 1;
+            this.btnDangXuat.Text = "Đăng xuất";
+            this.btnDangXuat.UseVisualStyleBackColor = true;
+            // 
+            // btnOrder
+            // 
+            this.btnOrder.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnOrder.Location = new System.Drawing.Point(41, 68);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(200, 48);
+            this.btnOrder.TabIndex = 2;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            // 
+            // btnQuanLy
+            // 
+            this.btnQuanLy.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnQuanLy.Location = new System.Drawing.Point(41, 274);
+            this.btnQuanLy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnQuanLy.Name = "btnQuanLy";
+            this.btnQuanLy.Size = new System.Drawing.Size(200, 48);
+            this.btnQuanLy.TabIndex = 3;
+            this.btnQuanLy.Text = "Quản lý";
+            this.btnQuanLy.UseVisualStyleBackColor = true;
+            this.btnQuanLy.Click += new System.EventHandler(this.btnQuanLy_Click);
+            // 
+            // btnChamCong
+            // 
+            this.btnChamCong.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnChamCong.Location = new System.Drawing.Point(41, 135);
+            this.btnChamCong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnChamCong.Name = "btnChamCong";
+            this.btnChamCong.Size = new System.Drawing.Size(200, 48);
+            this.btnChamCong.TabIndex = 4;
+            this.btnChamCong.Text = "Chấm Công";
+            this.btnChamCong.UseVisualStyleBackColor = true;
+            this.btnChamCong.Click += new System.EventHandler(this.btnChamCong_Click);
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.Controls.Add(this.lbnote);
+            this.panelLogo.Location = new System.Drawing.Point(275, 68);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(484, 256);
+            this.panelLogo.TabIndex = 5;
+            // 
+            // lbnote
+            // 
+            this.lbnote.AutoSize = true;
+            this.lbnote.Location = new System.Drawing.Point(184, 109);
+            this.lbnote.Name = "lbnote";
+            this.lbnote.Size = new System.Drawing.Size(74, 16);
+            this.lbnote.TabIndex = 0;
+            this.lbnote.Text = "nơi để logo";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.button1.Location = new System.Drawing.Point(41, 207);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 48);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Xem doanh thu";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnDoanhThu_Click);
+            // 
+            // FormHome
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 360);
+            this.Controls.Add(this.panelLogo);
+            this.Controls.Add(this.lblWelcome);
+            this.Controls.Add(this.btnDangXuat);
+            this.Controls.Add(this.btnOrder);
+            this.Controls.Add(this.btnQuanLy);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnChamCong);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "FormHome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Trang chủ";
+            this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panelLogo;
+        private System.Windows.Forms.Label lbnote;
+        private System.Windows.Forms.Button button1;
+    }
+}
