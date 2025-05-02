@@ -40,6 +40,7 @@
         private void InitializeComponent()
         {
             this.pnlOrder = new System.Windows.Forms.Panel();
+            this.lbMonDaOrder = new System.Windows.Forms.Label();
             this.lblTongTien = new System.Windows.Forms.Label();
             this.cboLoai = new System.Windows.Forms.ComboBox();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
@@ -51,7 +52,6 @@
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.btnHOME = new System.Windows.Forms.Button();
-            this.lbMonDaOrder = new System.Windows.Forms.Label();
             this.btnTim = new System.Windows.Forms.Button();
             this.pnlOrder.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +64,15 @@
             this.pnlOrder.Name = "pnlOrder";
             this.pnlOrder.Size = new System.Drawing.Size(200, 356);
             this.pnlOrder.TabIndex = 0;
+            // 
+            // lbMonDaOrder
+            // 
+            this.lbMonDaOrder.AutoSize = true;
+            this.lbMonDaOrder.Location = new System.Drawing.Point(44, 8);
+            this.lbMonDaOrder.Name = "lbMonDaOrder";
+            this.lbMonDaOrder.Size = new System.Drawing.Size(87, 16);
+            this.lbMonDaOrder.TabIndex = 0;
+            this.lbMonDaOrder.Text = "Món đã order";
             // 
             // lblTongTien
             // 
@@ -149,6 +158,7 @@
             // 
             // btnHOME
             // 
+            this.btnHOME.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnHOME.Location = new System.Drawing.Point(720, 3);
             this.btnHOME.Name = "btnHOME";
             this.btnHOME.Size = new System.Drawing.Size(100, 34);
@@ -157,15 +167,6 @@
             this.btnHOME.Text = "HOME";
             this.btnHOME.UseVisualStyleBackColor = true;
             this.btnHOME.Click += new System.EventHandler(this.btnHOME_Click);
-            // 
-            // lbMonDaOrder
-            // 
-            this.lbMonDaOrder.AutoSize = true;
-            this.lbMonDaOrder.Location = new System.Drawing.Point(44, 8);
-            this.lbMonDaOrder.Name = "lbMonDaOrder";
-            this.lbMonDaOrder.Size = new System.Drawing.Size(87, 16);
-            this.lbMonDaOrder.TabIndex = 0;
-            this.lbMonDaOrder.Text = "Món đã order";
             // 
             // btnTim
             // 
@@ -178,8 +179,10 @@
             // 
             // FormOrder
             // 
+            this.AcceptButton = this.btnThanhToan;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnHOME;
             this.ClientSize = new System.Drawing.Size(851, 431);
             this.Controls.Add(this.btnTim);
             this.Controls.Add(this.btnHOME);

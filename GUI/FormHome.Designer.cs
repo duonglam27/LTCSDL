@@ -34,6 +34,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.btnDangXuat = new System.Windows.Forms.Button();
             this.btnOrder = new System.Windows.Forms.Button();
@@ -42,7 +43,11 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.lbnote = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnThongTinCaNhan = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblWelcome
@@ -57,10 +62,10 @@
             // 
             // btnDangXuat
             // 
-            this.btnDangXuat.Location = new System.Drawing.Point(650, 16);
+            this.btnDangXuat.Location = new System.Drawing.Point(636, 16);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(109, 28);
+            this.btnDangXuat.Size = new System.Drawing.Size(123, 28);
             this.btnDangXuat.TabIndex = 1;
             this.btnDangXuat.Text = "Đăng xuất";
             this.btnDangXuat.UseVisualStyleBackColor = true;
@@ -68,7 +73,7 @@
             // btnOrder
             // 
             this.btnOrder.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnOrder.Location = new System.Drawing.Point(41, 68);
+            this.btnOrder.Location = new System.Drawing.Point(41, 135);
             this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(200, 48);
@@ -92,7 +97,7 @@
             // btnChamCong
             // 
             this.btnChamCong.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnChamCong.Location = new System.Drawing.Point(41, 135);
+            this.btnChamCong.Location = new System.Drawing.Point(41, 68);
             this.btnChamCong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChamCong.Name = "btnChamCong";
             this.btnChamCong.Size = new System.Drawing.Size(200, 48);
@@ -121,7 +126,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button1.Location = new System.Drawing.Point(41, 207);
+            this.button1.Location = new System.Drawing.Point(41, 206);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 48);
@@ -130,6 +135,31 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btnDoanhThu_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(212, 28);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(211, 24);
+            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            // 
+            // btnThongTinCaNhan
+            // 
+            this.btnThongTinCaNhan.Location = new System.Drawing.Point(489, 16);
+            this.btnThongTinCaNhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThongTinCaNhan.Name = "btnThongTinCaNhan";
+            this.btnThongTinCaNhan.Size = new System.Drawing.Size(141, 28);
+            this.btnThongTinCaNhan.TabIndex = 1;
+            this.btnThongTinCaNhan.Text = "Thông tin cá nhân";
+            this.btnThongTinCaNhan.UseVisualStyleBackColor = true;
+            this.btnThongTinCaNhan.Click += new System.EventHandler(this.btnThongTinCaNhan_Click);
+            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -137,6 +167,7 @@
             this.ClientSize = new System.Drawing.Size(800, 360);
             this.Controls.Add(this.panelLogo);
             this.Controls.Add(this.lblWelcome);
+            this.Controls.Add(this.btnThongTinCaNhan);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.btnQuanLy);
@@ -148,6 +179,7 @@
             this.Text = "Trang chủ";
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,5 +190,8 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Label lbnote;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.Button btnThongTinCaNhan;
     }
 }

@@ -78,6 +78,7 @@
             // 
             // btThoat
             // 
+            this.btThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btThoat.Location = new System.Drawing.Point(154, 198);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(98, 29);
@@ -123,8 +124,10 @@
             // 
             // FormLogin
             // 
+            this.AcceptButton = this.btDangNhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btThoat;
             this.ClientSize = new System.Drawing.Size(604, 287);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

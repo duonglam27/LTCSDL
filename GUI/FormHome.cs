@@ -20,35 +20,35 @@ namespace GUI
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            //this.Hide();
             FormOrder frmOrder = new FormOrder();
-            frmOrder.FormClosed += (s, args) => this.Show();
-            frmOrder.Show();
+            //frmOrder.FormClosed += (s, args) => this.Show();
+            frmOrder.ShowDialog();
         }
 
         private void btnDoanhThu_Click(object sender, EventArgs e)
         {
-            this.Hide();
             FormDoanhThu frmDoanhThu = new FormDoanhThu();
-            frmDoanhThu.FormClosed += (s, args) => this.Show();
-            frmDoanhThu.Show();
+            frmDoanhThu.ShowDialog();
         }
 
         private void btnChamCong_Click(object sender, EventArgs e)
         {
-            this.Hide();
             FormChamCong frmChamCong = new FormChamCong();
-            frmChamCong.FormClosed += (s, args) => this.Show();
-            frmChamCong.Show();
+            frmChamCong.ShowDialog();
             
         }
 
         private void btnQuanLy_Click(object sender, EventArgs e)
         {
-            this.Hide();
             FormQuanLy frmQuanLy = new FormQuanLy();
-            frmQuanLy.FormClosed += (s, args) => this.Close();
-            frmQuanLy.Show();
+            frmQuanLy.ShowDialog();
+        }
+
+        private void btnThongTinCaNhan_Click(object sender, EventArgs e)
+        {        
+            FormThongTinCaNhan frmTTCN = new FormThongTinCaNhan();           
+            frmTTCN.ShowDialog();
         }
     }
 }
