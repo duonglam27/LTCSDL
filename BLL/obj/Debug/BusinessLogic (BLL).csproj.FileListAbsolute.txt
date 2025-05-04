@@ -9,3 +9,5 @@ D:\LapTrinhCSDL\Project Thực Hành\BLL\obj\Debug\BusinessLogic (BLL).csproj.Co
 D:\LapTrinhCSDL\Project Thực Hành\BLL\obj\Debug\Business.8965C0ED.Up2Date
 D:\LapTrinhCSDL\Project Thực Hành\BLL\obj\Debug\BLL.dll
 D:\LapTrinhCSDL\Project Thực Hành\BLL\obj\Debug\BLL.pdb
+D:\LapTrinhCSDL\Project Thực Hành\BLL\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\LapTrinhCSDL\Project Thực Hành\BLL\bin\Debug\System.Configuration.ConfigurationManager.xml

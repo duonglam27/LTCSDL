@@ -15,10 +15,8 @@ namespace DAL
             bool result = false;
             string sql = "SELECT COUNT(*) FROM TaiKhoan WHERE Username = @Username AND PasswordHash = @PasswordHash";
 
-            using (SqlConnection conn = GetConnection())  // Kế thừa từ DataProvider
-            {
-                conn.Open();
-                using (SqlCommand cmd = new SqlCommand(sql, conn))
+            Connect();
+                using (SqlCommand cmd = new SqlCommand(sql, connect))
                 {
                     cmd.Parameters.AddWithValue("@Username", taikhoan.Username);
                     cmd.Parameters.AddWithValue("@PasswordHash", taikhoan.PasswordHash);
@@ -26,7 +24,7 @@ namespace DAL
                     int count = (int)cmd.ExecuteScalar();  // Trả về 0 hoặc 1
                     result = count > 0;
                 }
-            }                                     
+                                               
 
             return result;
         }

@@ -47,6 +47,7 @@
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(189, 22);
             this.txtTaiKhoan.TabIndex = 1;
+            this.txtTaiKhoan.Text = "Lam";
             // 
             // lbTaiKhoan
             // 
@@ -121,6 +122,7 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(189, 22);
             this.txtMatKhau.TabIndex = 2;
+            this.txtMatKhau.Text = "1";
             this.txtMatKhau.UseSystemPasswordChar = true;
             // 
             // FormLogin

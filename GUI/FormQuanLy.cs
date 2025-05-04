@@ -7,34 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using DTO;
 
 namespace GUI
 {
     public partial class FormQuanLy: Form
     {
+        private DanhMucBLL danhMucBLL;
         public FormQuanLy()
         {
             InitializeComponent();
+            danhMucBLL = new DanhMucBLL();
         }
 
-        private void dtgvDanhMucMon_CellContentClick(object sender, DataGridViewCellEventArgs e)
+      
+        private void LoadDanhMuc()
         {
-
+            dtgvDanhMucMon.DataSource = danhMucBLL.getDanhMuc();
         }
 
-        private void panel7_Paint(object sender, PaintEventArgs e)
+        private void FormQuanLy_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel59_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tpKhachHang_Click(object sender, EventArgs e)
-        {
-
+            LoadDanhMuc();
         }
     }
 }

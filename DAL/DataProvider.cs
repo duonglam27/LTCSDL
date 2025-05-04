@@ -4,26 +4,103 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 using DTO;
+using System.Data;
 
 
 namespace DAL
 {
     public class DataProvider
     {
-        private static readonly string strcon = @"Data Source=LAPTOP\MSSQLSERVER01;Initial Catalog=QuanLyBanHang;Integrated Security=True;Encrypt=False";
-
-        public static SqlConnection GetConnection()
+        public SqlConnection connect;
+        public SqlCommand cmd;
+        public DataProvider()
         {
-            return new SqlConnection(strcon);
+            string connStr = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+            connect = new SqlConnection(connStr);
+        }
+        public void Connect()
+        {
+            if (connect.State == System.Data.ConnectionState.Closed)
+                connect.Open();
+        }
+        public void Disconnect()
+        {
+            if (connect != null && connect.State == System.Data.ConnectionState.Open)
+                connect.Close();
+        }
+        public SqlDataReader MyExecuteReader(string sql, CommandType type, SqlParameter[] parameters =null)
+        {
+            try
+            {
+                Connect();
+                cmd = new SqlCommand(sql, connect);
+                cmd.CommandType = type;
+                if (parameters != null)
+                {
+                    cmd.Parameters.AddRange(parameters);
+                }
+                return cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            }
+            catch (SqlException )
+            {
+
+                throw ;
+            }
+           
         }
 
-        public static SqlConnection GetOpenConnection()
+        public int MyExecuteNonQuery(string sql, CommandType type, SqlParameter[] parameters=null)
         {
-            var conn = new SqlConnection(strcon);
-            conn.Open();
-            return conn;
+
+            try
+            {
+                Connect();
+                cmd = new SqlCommand(sql, connect);
+                cmd.CommandType = type;
+                if (parameters!=null)
+                {
+                    cmd.Parameters.AddRange(parameters);
+                }
+                return cmd.ExecuteNonQuery();
+            }
+            catch (SqlException )
+            {
+
+                throw ;
+            }
+            finally
+            {
+                Disconnect();
+            }
+            
         }
+
+        public object MyExecuteScalar(string sql, CommandType type, SqlParameter[] parameters = null)
+        {
+            try
+            {
+                Connect();
+                cmd = new SqlCommand(sql, connect);
+                cmd.CommandType = type;
+                if (parameters != null)
+                {
+                    cmd.Parameters.AddRange(parameters);
+                }
+                return cmd.ExecuteScalar();
+            }
+            catch (SqlException )
+            {
+
+                throw ;
+            }
+            finally
+            {
+                Disconnect();
+            }
+        }
+        
     }
 
 

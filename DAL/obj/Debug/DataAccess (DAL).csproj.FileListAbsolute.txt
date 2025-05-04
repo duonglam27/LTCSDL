@@ -7,3 +7,5 @@ D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DataAccess (DAL).csproj.CoreC
 D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DataAcce.93541D37.Up2Date
 D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DAL.dll
 D:\LapTrinhCSDL\Project Thực Hành\DAL\obj\Debug\DAL.pdb
+D:\LapTrinhCSDL\Project Thực Hành\DAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\LapTrinhCSDL\Project Thực Hành\DAL\bin\Debug\System.Configuration.ConfigurationManager.xml

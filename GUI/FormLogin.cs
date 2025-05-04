@@ -39,12 +39,12 @@ namespace GUI
             {
                 return loginBLL.Login(taikhoan);
             }
-            catch (SqlException ex)
+            catch (SqlException )
             {
 
                 throw;
             }
-            return true;
+            
         }
         private void btDangNhap_Click(object sender, EventArgs e)
         {

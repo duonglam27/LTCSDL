@@ -1,4 +1,3 @@
-D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\Presentation(GUI).exe.config
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\Presentation(GUI).exe
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\Presentation(GUI).pdb
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\BLL.dll
@@ -21,3 +20,6 @@ D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormQuanLy.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormThongTinCaNhan.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\DAL.dll
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\DAL.pdb
+D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\Presentation(GUI).exe.config
