@@ -17,11 +17,9 @@ namespace GUI
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            FormLogin loginFrm = new FormLogin(); 
-            if(loginFrm.ShowDialog() != DialogResult.OK)
-            {
-                Application.Run(new FormHome());
-            }
+            
+            Application.Run(new FormHome());
+            
 
             
         }

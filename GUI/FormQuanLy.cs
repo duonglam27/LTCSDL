@@ -31,5 +31,10 @@ namespace GUI
         {
 
         }
+
+        private void tpKhachHang_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

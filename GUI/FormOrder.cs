@@ -14,7 +14,7 @@ namespace GUI
 {
     public partial class FormOrder: Form
     {
-        TaiKhoanDTO taiKhoanDTO = new TaiKhoanDTO();
+        
         public FormOrder()
         {
             InitializeComponent();

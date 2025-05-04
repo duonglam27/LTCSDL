@@ -65,6 +65,7 @@
             this.btDangNhap.TabIndex = 2;
             this.btDangNhap.Text = "Đăng Nhập";
             this.btDangNhap.UseVisualStyleBackColor = true;
+            this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
             // 
             // lbnen
             // 

@@ -2,7 +2,7 @@
 {
     partial class FormHome
     {
-        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Label lbWelcome;
         private System.Windows.Forms.Button btnDangXuat;
         private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnQuanLy;
@@ -35,30 +35,31 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.lblWelcome = new System.Windows.Forms.Label();
+            this.lbWelcome = new System.Windows.Forms.Label();
             this.btnDangXuat = new System.Windows.Forms.Button();
             this.btnOrder = new System.Windows.Forms.Button();
             this.btnQuanLy = new System.Windows.Forms.Button();
             this.btnChamCong = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbnote = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnThongTinCaNhan = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblWelcome
+            // lbWelcome
             // 
-            this.lblWelcome.AutoSize = true;
-            this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.lblWelcome.Location = new System.Drawing.Point(30, 16);
-            this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(211, 28);
-            this.lblWelcome.TabIndex = 0;
-            this.lblWelcome.Text = "Xin chào: [username]";
+            this.lbWelcome.AutoSize = true;
+            this.lbWelcome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lbWelcome.Location = new System.Drawing.Point(30, 16);
+            this.lbWelcome.Name = "lbWelcome";
+            this.lbWelcome.Size = new System.Drawing.Size(0, 28);
+            this.lbWelcome.TabIndex = 0;
             // 
             // btnDangXuat
             // 
@@ -108,11 +109,22 @@
             // 
             // panelLogo
             // 
+            this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Controls.Add(this.lbnote);
             this.panelLogo.Location = new System.Drawing.Point(275, 68);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(484, 256);
             this.panelLogo.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GUI.Properties.Resources.logoCoffeeShop;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(484, 253);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // lbnote
             // 
@@ -166,7 +178,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 360);
             this.Controls.Add(this.panelLogo);
-            this.Controls.Add(this.lblWelcome);
+            this.Controls.Add(this.lbWelcome);
             this.Controls.Add(this.btnThongTinCaNhan);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.btnOrder);
@@ -177,8 +189,10 @@
             this.Name = "FormHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang chủ";
+            this.Load += new System.EventHandler(this.FormHome_Load);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -193,5 +207,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Button btnThongTinCaNhan;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

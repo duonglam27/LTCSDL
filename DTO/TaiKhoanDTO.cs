@@ -14,6 +14,11 @@ namespace DTO
         public string PasswordHash  { get; set; }
         public string Role { get; set; }
 
+        public TaiKhoanDTO(string userName,string passWord)
+        {
+            this.Username = userName;
+            this.PasswordHash = passWord;
+        }
 
     }
 }

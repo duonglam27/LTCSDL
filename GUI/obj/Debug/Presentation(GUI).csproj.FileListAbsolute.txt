@@ -19,3 +19,5 @@ D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormDoanhThu.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormChamCong.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormQuanLy.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormThongTinCaNhan.resources
+D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\DAL.dll
+D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\DAL.pdb
