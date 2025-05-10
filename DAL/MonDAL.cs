@@ -32,6 +32,18 @@ namespace DAL
                 return danhsach;
         }
 
+        public bool ThemMonDAL(string tenMon,int danhMucID,int gia)
+        {
+
+            string sql = "INSERT INTO Mon (tenMon,danhMucID,gia) VALUES (@TenMon,@DanhMucID,@Gia)";
+            SqlParameter[] parameters = {
+                new SqlParameter("@TenMon",tenMon),
+                new SqlParameter("@DanhMucID",danhMucID),
+                new SqlParameter("@Gia",gia),
+            };
+            int resultAdd = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return resultAdd > 0;
+        }
         public bool XoaMonDAL(int monID)
         { 
             string sql= "DELETE FROM Mon WHERE MonID = @MonID";
@@ -41,6 +53,18 @@ namespace DAL
 
             int rows = MyExecuteNonQuery(sql, CommandType.Text, parameters);
                 return rows > 0;
+        }
+        public bool SuaMonDAL(int monID, string tenMon, int danhMucID, int gia)
+        {
+            string sql = "UPDATE Mon SET TenMon = @TenMon, DanhMucID=@DanhMucID, Gia=@Gia WHERE MonID = @MonID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@MonID",monID),
+                new SqlParameter("@TenMon",tenMon),
+                new SqlParameter("@DanhMucID",danhMucID),
+                new SqlParameter("@Gia",gia)
+            };
+            int resultAdd = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return resultAdd > 0;
         }
     }
 }

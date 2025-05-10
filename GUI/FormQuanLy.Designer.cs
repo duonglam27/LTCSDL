@@ -1764,6 +1764,7 @@
             this.btnSuaMon.TabIndex = 0;
             this.btnSuaMon.Text = "Sửa";
             this.btnSuaMon.UseVisualStyleBackColor = true;
+            this.btnSuaMon.Click += new System.EventHandler(this.btnSuaMon_Click);
             // 
             // btnXoaMon
             // 
@@ -1783,6 +1784,7 @@
             this.btnThemMon.TabIndex = 0;
             this.btnThemMon.Text = "Thêm";
             this.btnThemMon.UseVisualStyleBackColor = true;
+            this.btnThemMon.Click += new System.EventHandler(this.btnThemMon_Click);
             // 
             // dtgvMon
             // 

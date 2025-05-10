@@ -20,9 +20,21 @@ namespace BLL
         {
             return monDAL.GetMonDAL();
         }
+
+        public bool ThemMonBLL(string tenMon, int danhMucID, int gia)
+        {
+            return monDAL.ThemMonDAL(tenMon, danhMucID, gia);
+        }
         public bool XoaMonBLL(int monID)
         {
             return monDAL.XoaMonDAL(monID);
         }
+
+        public bool SuaMonBLL(int monID, string tenMon, int danhMucID, int gia)
+        {
+            return monDAL.SuaMonDAL(monID,tenMon,danhMucID,gia);
+        }
+
+        
     }
 }

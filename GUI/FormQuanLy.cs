@@ -106,6 +106,13 @@ namespace GUI
             LoadDanhMuc();
         }
 
+
+
+
+
+
+
+
         public void LoadMon()
         {
             dtgvMon.DataSource = monBLL.getMonBLL();
@@ -129,6 +136,21 @@ namespace GUI
             }
         }
 
+        private void btnThemMon_Click(object sender, EventArgs e)
+        {
+            string tenMon = txtTenMon.Text.Trim();
+            int danhMucID = Convert.ToInt32(cbbDanhMucIDMon.Text);
+            int gia = Convert.ToInt32(txtGiaMon.Text);
+            
+            bool themMonThanhCong = monBLL.ThemMonBLL(tenMon, danhMucID, gia);
+            if (themMonThanhCong)
+            {
+                MessageBox.Show("Thêm món thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoadMon();
+            }
+            
+        }
+
         private void btnXoaMon_Click(object sender, EventArgs e)
         {
             if (dtgvMon.SelectedRows.Count>0)
@@ -141,7 +163,7 @@ namespace GUI
                     if (xoaMonThanhCong)
                     {
                         MessageBox.Show("Xoá món thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LoadMon(); // Refresh lại danh sách món
+                        LoadMon(); 
                     }
                     else
                     {
@@ -155,6 +177,15 @@ namespace GUI
             }
         }
 
-        
+        private void btnSuaMon_Click(object sender, EventArgs e)
+        {
+            int monID = Convert.ToInt32(dtgvMon.SelectedRows[0].Cells["MonID"].Value);
+            string tenMon = txtTenMon.Text;
+            int danhMucID = Convert.ToInt32(cbbDanhMucIDMon.Text);
+            int gia = Convert.ToInt32(txtGiaMon.Text);
+
+            monBLL.SuaMonBLL(monID, tenMon, danhMucID, gia);
+            LoadMon();
+        }
     }
 }
