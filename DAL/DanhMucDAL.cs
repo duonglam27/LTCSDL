@@ -28,5 +28,36 @@ namespace DAL
             }
                 return danhSach;
         }
+
+        public bool ThemDanhMucDAL(string tenDanhMuc)
+        {
+            string sql = "INSERT INTO DanhMucMon (tenDanhMuc) VALUES (@TenDanhMuc)";
+            SqlParameter[] parameters = {
+                new SqlParameter("@TenDanhMuc",tenDanhMuc)
+            };
+            int resultAdd = MyExecuteNonQuery(sql,CommandType.Text,parameters);
+            return resultAdd > 0;
+        }
+
+        public bool XoaDanhMucDAL(int danhMucID)
+        {
+            string sql = "DELETE FROM DanhMucMon WHERE DanhMucID = @DanhMucID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@DanhMucID",danhMucID)
+            };
+
+            int rows = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return rows > 0;
+        }
+        public bool SuaDanhMucDAL(string tenDanhMuc,int danhMucID)
+        {
+            string sql = "UPDATE DanhMucMon SET TenDanhMuc = @TenDanhMuc WHERE DanhMucID = @DanhMucID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@TenDanhMuc",tenDanhMuc),
+                new SqlParameter("@DanhMucID",danhMucID)          
+            };
+            int resultAdd = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return resultAdd>0;
+        }
     }
 }

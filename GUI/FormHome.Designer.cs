@@ -90,7 +90,7 @@
             this.btnQuanLy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuanLy.Name = "btnQuanLy";
             this.btnQuanLy.Size = new System.Drawing.Size(200, 48);
-            this.btnQuanLy.TabIndex = 3;
+            this.btnQuanLy.TabIndex = 0;
             this.btnQuanLy.Text = "Quản lý";
             this.btnQuanLy.UseVisualStyleBackColor = true;
             this.btnQuanLy.Click += new System.EventHandler(this.btnQuanLy_Click);

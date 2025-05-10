@@ -1567,6 +1567,7 @@
             this.btnXemDanhMucMon.TabIndex = 0;
             this.btnXemDanhMucMon.Text = "Xem";
             this.btnXemDanhMucMon.UseVisualStyleBackColor = true;
+            this.btnXemDanhMucMon.Click += new System.EventHandler(this.btnXemDanhMucMon_Click);
             // 
             // btnSuaDanhMucMon
             // 
@@ -1576,6 +1577,7 @@
             this.btnSuaDanhMucMon.TabIndex = 0;
             this.btnSuaDanhMucMon.Text = "Sửa";
             this.btnSuaDanhMucMon.UseVisualStyleBackColor = true;
+            this.btnSuaDanhMucMon.Click += new System.EventHandler(this.btnSuaDanhMucMon_Click);
             // 
             // btnXoaDanhMucMon
             // 
@@ -1585,6 +1587,7 @@
             this.btnXoaDanhMucMon.TabIndex = 0;
             this.btnXoaDanhMucMon.Text = "Xoá";
             this.btnXoaDanhMucMon.UseVisualStyleBackColor = true;
+            this.btnXoaDanhMucMon.Click += new System.EventHandler(this.btnXoaDanhMucMon_Click);
             // 
             // btnThemDanhMucMon
             // 
@@ -1594,6 +1597,7 @@
             this.btnThemDanhMucMon.TabIndex = 0;
             this.btnThemDanhMucMon.Text = "Thêm";
             this.btnThemDanhMucMon.UseVisualStyleBackColor = true;
+            this.btnThemDanhMucMon.Click += new System.EventHandler(this.btnThemDanhMucMon_Click);
             // 
             // dtgvDanhMucMon
             // 
@@ -1603,7 +1607,8 @@
             this.dtgvDanhMucMon.RowHeadersWidth = 51;
             this.dtgvDanhMucMon.RowTemplate.Height = 24;
             this.dtgvDanhMucMon.Size = new System.Drawing.Size(492, 383);
-            this.dtgvDanhMucMon.TabIndex = 5;
+            this.dtgvDanhMucMon.TabIndex = 0;
+            this.dtgvDanhMucMon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvDanhMucMon_CellClick);
             // 
             // tpMon
             // 
@@ -2324,7 +2329,7 @@
             this.tcAdmin.Name = "tcAdmin";
             this.tcAdmin.SelectedIndex = 0;
             this.tcAdmin.Size = new System.Drawing.Size(831, 480);
-            this.tcAdmin.TabIndex = 0;
+            this.tcAdmin.TabIndex = 1;
             // 
             // tpBanHang
             // 

@@ -19,5 +19,19 @@ namespace BLL
         {
             return danhMucDAL.GetDanhMuc();
         }
+
+        public bool ThemDanhMucBLL(string tenDanhMuc)
+        {
+            return danhMucDAL.ThemDanhMucDAL(tenDanhMuc);
+        }
+        public bool XoaDanhMucBLL(int danhMucID)
+        {
+            return danhMucDAL.XoaDanhMucDAL(danhMucID);
+        }
+        
+        public bool SuaDanhMucBLL(string tenDanhMuc,int danhMucID)
+        {
+            return danhMucDAL.SuaDanhMucDAL(tenDanhMuc,danhMucID);
+        }
     }
 }
