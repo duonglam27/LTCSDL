@@ -48,6 +48,7 @@
     <Compile Include="DanhMucDAL.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="LoginDAL.cs" />
+    <Compile Include="MonDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

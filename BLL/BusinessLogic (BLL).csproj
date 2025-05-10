@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="DanhMucBLL.cs" />
     <Compile Include="LoginBLL.cs" />
+    <Compile Include="MonBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

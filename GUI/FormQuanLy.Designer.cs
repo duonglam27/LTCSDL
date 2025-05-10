@@ -147,14 +147,14 @@
             this.lbGiaMon = new System.Windows.Forms.Label();
             this.txtGiaMon = new System.Windows.Forms.TextBox();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.cbbTenDanhMucMon = new System.Windows.Forms.ComboBox();
+            this.cbbDanhMucIDMon = new System.Windows.Forms.ComboBox();
             this.lbDanhMucIDMon = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.lbMonID = new System.Windows.Forms.Label();
             this.txtMonID = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.lbTenMon = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTenMon = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.btnXemMon = new System.Windows.Forms.Button();
             this.btnSuaMon = new System.Windows.Forms.Button();
@@ -1567,7 +1567,6 @@
             this.btnXemDanhMucMon.TabIndex = 0;
             this.btnXemDanhMucMon.Text = "Xem";
             this.btnXemDanhMucMon.UseVisualStyleBackColor = true;
-            this.btnXemDanhMucMon.Click += new System.EventHandler(this.btnXemDanhMucMon_Click);
             // 
             // btnSuaDanhMucMon
             // 
@@ -1657,20 +1656,20 @@
             // 
             // panel24
             // 
-            this.panel24.Controls.Add(this.cbbTenDanhMucMon);
+            this.panel24.Controls.Add(this.cbbDanhMucIDMon);
             this.panel24.Controls.Add(this.lbDanhMucIDMon);
             this.panel24.Location = new System.Drawing.Point(7, 138);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(256, 58);
             this.panel24.TabIndex = 2;
             // 
-            // cbbTenDanhMucMon
+            // cbbDanhMucIDMon
             // 
-            this.cbbTenDanhMucMon.FormattingEnabled = true;
-            this.cbbTenDanhMucMon.Location = new System.Drawing.Point(144, 18);
-            this.cbbTenDanhMucMon.Name = "cbbTenDanhMucMon";
-            this.cbbTenDanhMucMon.Size = new System.Drawing.Size(100, 24);
-            this.cbbTenDanhMucMon.TabIndex = 2;
+            this.cbbDanhMucIDMon.FormattingEnabled = true;
+            this.cbbDanhMucIDMon.Location = new System.Drawing.Point(144, 18);
+            this.cbbDanhMucIDMon.Name = "cbbDanhMucIDMon";
+            this.cbbDanhMucIDMon.Size = new System.Drawing.Size(100, 24);
+            this.cbbDanhMucIDMon.TabIndex = 2;
             // 
             // lbDanhMucIDMon
             // 
@@ -1710,7 +1709,7 @@
             // panel10
             // 
             this.panel10.Controls.Add(this.lbTenMon);
-            this.panel10.Controls.Add(this.textBox2);
+            this.panel10.Controls.Add(this.txtTenMon);
             this.panel10.Location = new System.Drawing.Point(7, 74);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(256, 58);
@@ -1725,12 +1724,12 @@
             this.lbTenMon.TabIndex = 1;
             this.lbTenMon.Text = "Tên món";
             // 
-            // textBox2
+            // txtTenMon
             // 
-            this.textBox2.Location = new System.Drawing.Point(144, 19);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 0;
+            this.txtTenMon.Location = new System.Drawing.Point(144, 19);
+            this.txtTenMon.Name = "txtTenMon";
+            this.txtTenMon.Size = new System.Drawing.Size(100, 22);
+            this.txtTenMon.TabIndex = 0;
             // 
             // panel11
             // 
@@ -1769,6 +1768,7 @@
             this.btnXoaMon.TabIndex = 0;
             this.btnXoaMon.Text = "Xoá";
             this.btnXoaMon.UseVisualStyleBackColor = true;
+            this.btnXoaMon.Click += new System.EventHandler(this.btnXoaMon_Click);
             // 
             // btnThemMon
             // 
@@ -1788,6 +1788,7 @@
             this.dtgvMon.RowTemplate.Height = 24;
             this.dtgvMon.Size = new System.Drawing.Size(492, 383);
             this.dtgvMon.TabIndex = 11;
+            this.dtgvMon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvMon_CellClick);
             // 
             // tpCongThuc
             // 
@@ -4312,7 +4313,7 @@
         private System.Windows.Forms.TextBox txtMonID;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label lbTenMon;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTenMon;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Button btnXemMon;
         private System.Windows.Forms.Button btnSuaMon;
@@ -4359,7 +4360,7 @@
         private System.Windows.Forms.TextBox txtGiaMon;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Label lbDanhMucIDMon;
-        private System.Windows.Forms.ComboBox cbbTenDanhMucMon;
+        private System.Windows.Forms.ComboBox cbbDanhMucIDMon;
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Label lbDinhLuong;
         private System.Windows.Forms.TextBox txtDinhLuong;
