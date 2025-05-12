@@ -15,9 +15,9 @@ namespace BLL
         {
             danhMucDAL = new DanhMucDAL();
         }
-        public List<DanhMucDTO> getDanhMuc()
+        public List<DanhMucDTO> GetDanhMucBLL()
         {
-            return danhMucDAL.GetDanhMuc();
+            return danhMucDAL.GetDanhMucDAL();
         }
 
         public bool ThemDanhMucBLL(string tenDanhMuc)

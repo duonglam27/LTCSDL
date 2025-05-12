@@ -16,7 +16,7 @@ namespace BLL
             monDAL = new MonDAL();
         }
         
-        public List<MonDTO> getMonBLL()
+        public List<MonDTO> GetMonBLL()
         {
             return monDAL.GetMonDAL();
         }
@@ -35,6 +35,16 @@ namespace BLL
             return monDAL.SuaMonDAL(monID,tenMon,danhMucID,gia);
         }
 
-        
+        public List<MonDTO> TimMonTheoTenBLL(string tenMon)
+        {
+            return monDAL.TimMonTheoTenDAL(tenMon);
+        }
+        public List<MonDTO> TimMonTheoDanhMucBLL(int danhMucID)
+        {
+            return monDAL.TimMonTheoDanhMucDAL(danhMucID);
+        }
+
+
+
     }
 }

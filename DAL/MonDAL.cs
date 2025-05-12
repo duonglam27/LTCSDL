@@ -66,5 +66,59 @@ namespace DAL
             int resultAdd = MyExecuteNonQuery(sql, CommandType.Text, parameters);
             return resultAdd > 0;
         }
+
+        public List<MonDTO> TimMonTheoTenDAL(string tenMon)
+        {
+            List<MonDTO> danhsach = new List<MonDTO>();
+
+            string sql = "SELECT * FROM dbo.Mon WHERE TenMon LIKE @TenMon";
+
+            SqlParameter[] parameters = {
+                new SqlParameter("@TenMon", "%" + tenMon + "%")  
+            };
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text, parameters))
+            {
+                while (reader.Read())
+                {
+                    int MonID = Convert.ToInt32(reader["MonID"]);
+                    string TenMon = reader["TenMon"].ToString();
+                    int DanhMucID = Convert.ToInt32(reader["DanhMucID"]);
+                    int Gia = Convert.ToInt32(reader["Gia"]);
+                    MonDTO mon = new MonDTO(MonID, TenMon, DanhMucID, Gia);
+                    danhsach.Add(mon);
+                }
+            }
+
+            return danhsach;
+        }
+ 
+        public List<MonDTO> TimMonTheoDanhMucDAL(int danhMucID)
+        {
+            List<MonDTO> danhsach = new List<MonDTO>();
+
+            string sql = "SELECT * FROM dbo.Mon WHERE DanhMucID = @DanhMucID";
+
+            SqlParameter[] parameters = {
+                new SqlParameter("@DanhMucID", danhMucID)
+                };
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text, parameters))
+            {
+                while (reader.Read())
+                {
+                    int MonID = Convert.ToInt32(reader["MonID"]);
+                    string TenMon = reader["TenMon"].ToString();
+                    int DanhMucID = Convert.ToInt32(reader["DanhMucID"]);
+                    int Gia = Convert.ToInt32(reader["Gia"]);
+                    MonDTO mon = new MonDTO(MonID, TenMon, DanhMucID, Gia);
+                    danhsach.Add(mon);
+                }
+            }
+
+            return danhsach;
+        }
+
+
     }
 }

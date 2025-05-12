@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DanhMucDAL: DataProvider
     {
-        public List<DanhMucDTO> GetDanhMuc()
+        public List<DanhMucDTO> GetDanhMucDAL()
         {
             List<DanhMucDTO> danhSach = new List<DanhMucDTO>();
             string sql = "SELECT * FROM dbo.DanhMucMon ";
