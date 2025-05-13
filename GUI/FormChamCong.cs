@@ -50,7 +50,7 @@ namespace GUI
             }
             else
             {
-                MessageBox.Show("Bạn chưa chấm công vào!!! Chấm công ra thất bại.");
+                MessageBox.Show("Bạn chưa chấm công vào hoặc đã chấm công đủ lần !!! Chấm công ra thất bại.");
             }
 
         }

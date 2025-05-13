@@ -56,8 +56,8 @@
             this.lbChiTietNhapKhoID = new System.Windows.Forms.Label();
             this.txtChiTietNhapKhoID = new System.Windows.Forms.TextBox();
             this.panel44 = new System.Windows.Forms.Panel();
-            this.lbNhapKhoIDCTNK = new System.Windows.Forms.Label();
             this.txtNhapKhoIDCTNK = new System.Windows.Forms.TextBox();
+            this.lbNhapKhoIDCTNK = new System.Windows.Forms.Label();
             this.btnNhapKho = new System.Windows.Forms.Button();
             this.btnThemChiTiet = new System.Windows.Forms.Button();
             this.panel41.SuspendLayout();
@@ -80,7 +80,7 @@
             this.panel41.Controls.Add(this.panel49);
             this.panel41.Controls.Add(this.panel39);
             this.panel41.Controls.Add(this.panel40);
-            this.panel41.Location = new System.Drawing.Point(12, 12);
+            this.panel41.Location = new System.Drawing.Point(34, 12);
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(237, 378);
             this.panel41.TabIndex = 14;
@@ -197,9 +197,9 @@
             this.panel45.Controls.Add(this.panel51);
             this.panel45.Controls.Add(this.panel43);
             this.panel45.Controls.Add(this.panel44);
-            this.panel45.Location = new System.Drawing.Point(282, 12);
+            this.panel45.Location = new System.Drawing.Point(304, 12);
             this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(431, 378);
+            this.panel45.Size = new System.Drawing.Size(440, 378);
             this.panel45.TabIndex = 15;
             // 
             // label1
@@ -234,7 +234,7 @@
             // 
             this.txtSoLuongCTNK.Location = new System.Drawing.Point(144, 19);
             this.txtSoLuongCTNK.Name = "txtSoLuongCTNK";
-            this.txtSoLuongCTNK.Size = new System.Drawing.Size(100, 22);
+            this.txtSoLuongCTNK.Size = new System.Drawing.Size(263, 22);
             this.txtSoLuongCTNK.TabIndex = 0;
             // 
             // panel53
@@ -259,7 +259,7 @@
             // 
             this.txtGiaNhapCTNK.Location = new System.Drawing.Point(144, 19);
             this.txtGiaNhapCTNK.Name = "txtGiaNhapCTNK";
-            this.txtGiaNhapCTNK.Size = new System.Drawing.Size(100, 22);
+            this.txtGiaNhapCTNK.Size = new System.Drawing.Size(263, 22);
             this.txtGiaNhapCTNK.TabIndex = 0;
             // 
             // panel51
@@ -276,7 +276,7 @@
             this.cbbNguyenLieuIDCTNK.FormattingEnabled = true;
             this.cbbNguyenLieuIDCTNK.Location = new System.Drawing.Point(144, 19);
             this.cbbNguyenLieuIDCTNK.Name = "cbbNguyenLieuIDCTNK";
-            this.cbbNguyenLieuIDCTNK.Size = new System.Drawing.Size(100, 24);
+            this.cbbNguyenLieuIDCTNK.Size = new System.Drawing.Size(263, 24);
             this.cbbNguyenLieuIDCTNK.TabIndex = 3;
             // 
             // lbNguyenLieuIDCTNK
@@ -311,7 +311,7 @@
             this.txtChiTietNhapKhoID.Location = new System.Drawing.Point(144, 19);
             this.txtChiTietNhapKhoID.Name = "txtChiTietNhapKhoID";
             this.txtChiTietNhapKhoID.ReadOnly = true;
-            this.txtChiTietNhapKhoID.Size = new System.Drawing.Size(100, 22);
+            this.txtChiTietNhapKhoID.Size = new System.Drawing.Size(263, 22);
             this.txtChiTietNhapKhoID.TabIndex = 0;
             // 
             // panel44
@@ -323,6 +323,14 @@
             this.panel44.Size = new System.Drawing.Size(410, 58);
             this.panel44.TabIndex = 1;
             // 
+            // txtNhapKhoIDCTNK
+            // 
+            this.txtNhapKhoIDCTNK.Location = new System.Drawing.Point(144, 19);
+            this.txtNhapKhoIDCTNK.Name = "txtNhapKhoIDCTNK";
+            this.txtNhapKhoIDCTNK.ReadOnly = true;
+            this.txtNhapKhoIDCTNK.Size = new System.Drawing.Size(263, 22);
+            this.txtNhapKhoIDCTNK.TabIndex = 2;
+            // 
             // lbNhapKhoIDCTNK
             // 
             this.lbNhapKhoIDCTNK.AutoSize = true;
@@ -332,27 +340,19 @@
             this.lbNhapKhoIDCTNK.TabIndex = 1;
             this.lbNhapKhoIDCTNK.Text = "Nhập kho ID";
             // 
-            // txtNhapKhoIDCTNK
-            // 
-            this.txtNhapKhoIDCTNK.Location = new System.Drawing.Point(144, 19);
-            this.txtNhapKhoIDCTNK.Name = "txtNhapKhoIDCTNK";
-            this.txtNhapKhoIDCTNK.ReadOnly = true;
-            this.txtNhapKhoIDCTNK.Size = new System.Drawing.Size(100, 22);
-            this.txtNhapKhoIDCTNK.TabIndex = 2;
-            // 
             // btnNhapKho
             // 
-            this.btnNhapKho.Location = new System.Drawing.Point(115, 396);
+            this.btnNhapKho.Location = new System.Drawing.Point(137, 396);
             this.btnNhapKho.Name = "btnNhapKho";
             this.btnNhapKho.Size = new System.Drawing.Size(134, 42);
             this.btnNhapKho.TabIndex = 16;
-            this.btnNhapKho.Text = "Tạo nhập kho";
+            this.btnNhapKho.Text = "Tạo nhập kho mới";
             this.btnNhapKho.UseVisualStyleBackColor = true;
             this.btnNhapKho.Click += new System.EventHandler(this.btnNhapKho_Click);
             // 
             // btnThemChiTiet
             // 
-            this.btnThemChiTiet.Location = new System.Drawing.Point(579, 396);
+            this.btnThemChiTiet.Location = new System.Drawing.Point(610, 396);
             this.btnThemChiTiet.Name = "btnThemChiTiet";
             this.btnThemChiTiet.Size = new System.Drawing.Size(134, 42);
             this.btnThemChiTiet.TabIndex = 17;
@@ -362,6 +362,7 @@
             // 
             // FormNhapKho
             // 
+            this.AcceptButton = this.btnThemChiTiet;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 450);
@@ -370,6 +371,7 @@
             this.Controls.Add(this.panel45);
             this.Controls.Add(this.panel41);
             this.Name = "FormNhapKho";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNhapKho";
             this.Load += new System.EventHandler(this.FormNhapKho_Load);
             this.panel41.ResumeLayout(false);

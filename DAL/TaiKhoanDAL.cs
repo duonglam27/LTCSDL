@@ -87,5 +87,15 @@ namespace DAL
             int result = MyExecuteNonQuery(sql, CommandType.Text, parameters);
             return result > 0;
         }
+        public bool KiemTraNhanVienDaCoTaiKhoan(int nhanVienID)
+        {
+            string sql = "SELECT COUNT(*) FROM TaiKhoan WHERE NhanVienID = @NhanVienID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@NhanVienID", nhanVienID)
+            };
+
+            object result = MyExecuteScalar(sql, CommandType.Text, parameters);
+            return Convert.ToInt32(result) > 0;
+        }
     }
 }

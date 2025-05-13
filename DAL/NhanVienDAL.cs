@@ -103,5 +103,21 @@ namespace DAL
 
             return MyExecuteNonQuery(sql, CommandType.Text, parameters) > 0;
         }
+
+        public bool ThemNhanVien(NhanVienDTO nv)
+        {
+            string sql = "INSERT INTO NhanVien (HoTen, NgaySinh, Email, SoDienThoai, PhongBan, TrangThai) " +
+                         "VALUES (@HoTen, @NgaySinh, @Email, @SoDienThoai, @PhongBan, @TrangThai)";
+            SqlParameter[] parameters = {
+                new SqlParameter("@HoTen", nv.HoTen),
+                new SqlParameter("@NgaySinh", nv.NgaySinh),
+                new SqlParameter("@Email", nv.Email),
+                new SqlParameter("@SoDienThoai", nv.SoDienThoai),
+                new SqlParameter("@PhongBan", nv.PhongBan),
+                new SqlParameter("@TrangThai", nv.TrangThai)
+            };
+            return MyExecuteNonQuery(sql, CommandType.Text, parameters) > 0;
+        }
+
     }
 }

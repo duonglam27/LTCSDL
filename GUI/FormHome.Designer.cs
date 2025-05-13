@@ -64,6 +64,7 @@
             // 
             // btnDangXuat
             // 
+            this.btnDangXuat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnDangXuat.Location = new System.Drawing.Point(636, 16);
             this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangXuat.Name = "btnDangXuat";
@@ -188,8 +189,10 @@
             // 
             // FormHome
             // 
+            this.AcceptButton = this.btnOrder;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnDangXuat;
             this.ClientSize = new System.Drawing.Size(800, 360);
             this.Controls.Add(this.btnNhapKho);
             this.Controls.Add(this.panelLogo);

@@ -31,6 +31,11 @@ namespace BLL
         {
             return taiKhoanDAL.CapNhatTrangThai(taiKhoanID, trangThai);
         }
+        public bool KiemTraNhanVienDaCoTaiKhoan(int nhanVienID)
+        {
+            return taiKhoanDAL.KiemTraNhanVienDaCoTaiKhoan(nhanVienID);
+        }
+
     }
 }
 

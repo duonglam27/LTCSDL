@@ -3884,6 +3884,7 @@
             this.btnThemNhanVien.TabIndex = 0;
             this.btnThemNhanVien.Text = "Thêm";
             this.btnThemNhanVien.UseVisualStyleBackColor = true;
+            this.btnThemNhanVien.Click += new System.EventHandler(this.btnThemNhanVien_Click);
             // 
             // tpTaiKhoan
             // 
@@ -4121,6 +4122,7 @@
             this.btnThemTaiKhoan.TabIndex = 0;
             this.btnThemTaiKhoan.Text = "Thêm";
             this.btnThemTaiKhoan.UseVisualStyleBackColor = true;
+            this.btnThemTaiKhoan.Click += new System.EventHandler(this.btnThemTaiKhoan_Click);
             // 
             // tpChamCong
             // 

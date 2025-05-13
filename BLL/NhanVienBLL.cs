@@ -25,6 +25,10 @@ namespace BLL
         {
             return nhanVienDAL.GetNhanVienByIDDAL( nhanVienID);
         }
+        public bool ThemNhanVien(NhanVienDTO nhanvien)
+        {
+            return nhanVienDAL.ThemNhanVien(nhanvien);
+        }
 
     }
 }

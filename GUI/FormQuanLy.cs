@@ -419,9 +419,18 @@ namespace GUI
         {
             dtgvNhanVien.DataSource = nhanVienBLL.GetAllNhanVienBLL();
         }
+
         private void LoadTaiKhoan()
         {
             dtgvTaiKhoan.DataSource = taiKhoanBLL.LayDanhSachTaiKhoan();
+            LoadNhanVienTaiKhoan();
+        }
+        private void LoadNhanVienTaiKhoan()
+        {
+            
+            cbbNhanVienIDTaiKhoan.DataSource = nhanVienBLL.GetAllNhanVienBLL();
+            cbbNhanVienIDTaiKhoan.DisplayMember = "HoTen";
+            cbbNhanVienIDTaiKhoan.ValueMember = "NhanVienID";
         }
         private void LoadKhachHang()
         {
@@ -435,6 +444,85 @@ namespace GUI
         {
             dtgvNhapKho.DataSource = nhapKhoBLL.GetNhapKhoBLL();
         }
-        
+
+        private void btnThemTaiKhoan_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int nhanVienID = Convert.ToInt32(cbbNhanVienIDTaiKhoan.SelectedValue);
+                if (taiKhoanBLL.KiemTraNhanVienDaCoTaiKhoan(nhanVienID))
+                {
+                    MessageBox.Show("Nhân viên này đã có tài khoản!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                string username = txtUserName.Text.Trim();
+                string password = txtPassword.Text.Trim();
+                string role = txtRole.Text.Trim();
+                bool trangThai = checkboxTrangThaiTaiKhoan.Checked;
+
+                if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(role))
+                {
+                    MessageBox.Show("Vui lòng nhập đầy đủ các trường thông tin!");
+                    return;
+                }
+
+                TaiKhoanDTO taiKhoan = new TaiKhoanDTO(0, nhanVienID, username, password, role, trangThai);
+
+                bool result = taiKhoanBLL.ThemTaiKhoan(taiKhoan);
+
+                if (result)
+                {
+                    MessageBox.Show("Thêm tài khoản thành công!");
+                    LoadTaiKhoan(); 
+                }
+                else
+                {
+                    MessageBox.Show("Thêm thất bại.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void btnThemNhanVien_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string hoTen = txtHoTenNhanVien.Text.Trim();
+                DateTime ngaySinh = dtNgaySinhNhanVien.Value;
+                string email = txtEmailNhanVien.Text.Trim();
+                string sdt = txtSDTNhanVien.Text.Trim();
+                string phongBan = txtPhongBan.Text.Trim();
+                string trangThai = txtTrangThaiNhanVien.Text.Trim();
+
+                if (string.IsNullOrWhiteSpace(hoTen) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(sdt))
+                {
+                    MessageBox.Show("Vui lòng nhập đầy đủ thông tin bắt buộc (Họ tên, Email, SĐT).", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                NhanVienDTO nhanVien = new NhanVienDTO(0, hoTen, ngaySinh, email, sdt, phongBan, trangThai);
+                bool ketQua = nhanVienBLL.ThemNhanVien(nhanVien);
+
+                if (ketQua)
+                {
+                    MessageBox.Show("Thêm nhân viên thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadNhanVien();
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Thêm nhân viên thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+    
     }
 }
