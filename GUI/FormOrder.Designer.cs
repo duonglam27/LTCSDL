@@ -126,7 +126,7 @@
             this.flpDSMon.Controls.Add(this.dtgvDSMon);
             this.flpDSMon.Location = new System.Drawing.Point(220, 66);
             this.flpDSMon.Name = "flpDSMon";
-            this.flpDSMon.Size = new System.Drawing.Size(509, 257);
+            this.flpDSMon.Size = new System.Drawing.Size(509, 229);
             this.flpDSMon.TabIndex = 4;
             // 
             // dtgvDSMon
@@ -136,22 +136,23 @@
             this.dtgvDSMon.Name = "dtgvDSMon";
             this.dtgvDSMon.RowHeadersWidth = 51;
             this.dtgvDSMon.RowTemplate.Height = 24;
-            this.dtgvDSMon.Size = new System.Drawing.Size(486, 246);
+            this.dtgvDSMon.Size = new System.Drawing.Size(486, 218);
             this.dtgvDSMon.TabIndex = 0;
             // 
             // btnDoiDiem
             // 
-            this.btnDoiDiem.Location = new System.Drawing.Point(220, 340);
+            this.btnDoiDiem.Location = new System.Drawing.Point(223, 304);
             this.btnDoiDiem.Name = "btnDoiDiem";
-            this.btnDoiDiem.Size = new System.Drawing.Size(100, 36);
+            this.btnDoiDiem.Size = new System.Drawing.Size(80, 80);
             this.btnDoiDiem.TabIndex = 5;
             this.btnDoiDiem.Text = "Đổi điểm";
+            this.btnDoiDiem.Click += new System.EventHandler(this.btnDoiDiem_Click);
             // 
             // btnCombo
             // 
-            this.btnCombo.Location = new System.Drawing.Point(330, 340);
+            this.btnCombo.Location = new System.Drawing.Point(329, 304);
             this.btnCombo.Name = "btnCombo";
-            this.btnCombo.Size = new System.Drawing.Size(100, 36);
+            this.btnCombo.Size = new System.Drawing.Size(80, 80);
             this.btnCombo.TabIndex = 6;
             this.btnCombo.Text = "Combo";
             // 
@@ -159,9 +160,9 @@
             // 
             this.btnThanhToan.BackColor = System.Drawing.Color.LightGreen;
             this.btnThanhToan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btnThanhToan.Location = new System.Drawing.Point(660, 379);
+            this.btnThanhToan.Location = new System.Drawing.Point(647, 304);
             this.btnThanhToan.Name = "btnThanhToan";
-            this.btnThanhToan.Size = new System.Drawing.Size(150, 44);
+            this.btnThanhToan.Size = new System.Drawing.Size(80, 80);
             this.btnThanhToan.TabIndex = 10;
             this.btnThanhToan.Text = "Thanh toán";
             this.btnThanhToan.UseVisualStyleBackColor = false;
@@ -192,9 +193,9 @@
             // btnHuy
             // 
             this.btnHuy.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnHuy.Location = new System.Drawing.Point(735, 46);
+            this.btnHuy.Location = new System.Drawing.Point(775, 46);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(100, 36);
+            this.btnHuy.Size = new System.Drawing.Size(60, 60);
             this.btnHuy.TabIndex = 9;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = false;
@@ -202,20 +203,23 @@
             // 
             // btnThemVaoDS
             // 
-            this.btnThemVaoDS.Location = new System.Drawing.Point(500, 379);
+            this.btnThemVaoDS.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnThemVaoDS.Location = new System.Drawing.Point(541, 304);
             this.btnThemVaoDS.Name = "btnThemVaoDS";
-            this.btnThemVaoDS.Size = new System.Drawing.Size(150, 44);
+            this.btnThemVaoDS.Size = new System.Drawing.Size(80, 80);
             this.btnThemVaoDS.TabIndex = 13;
             this.btnThemVaoDS.Text = "Thêm vào ds";
+            this.btnThemVaoDS.UseVisualStyleBackColor = false;
             this.btnThemVaoDS.Click += new System.EventHandler(this.btnThemVaoDS_Click);
             // 
             // btnChonBan
             // 
-            this.btnChonBan.Location = new System.Drawing.Point(440, 340);
+            this.btnChonBan.Location = new System.Drawing.Point(435, 304);
             this.btnChonBan.Name = "btnChonBan";
-            this.btnChonBan.Size = new System.Drawing.Size(100, 36);
+            this.btnChonBan.Size = new System.Drawing.Size(80, 80);
             this.btnChonBan.TabIndex = 7;
             this.btnChonBan.Text = "Bàn";
+            this.btnChonBan.Click += new System.EventHandler(this.btnChonBan_Click);
             // 
             // FormOrder
             // 

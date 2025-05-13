@@ -19,9 +19,15 @@ namespace BLL
         {
             return hoaDonDAL.ThemHoaDonDAL(ngayLap, banID, tongTien, trangThai, nhanVienID, khachHangID,ghiChu);
         }
-        public decimal TinhDoanhThuNgayBLL(DateTime ngay)
+
+        public List<DoanhThuTheoNgayDTO> GetDoanhThuTheoNgayBLL(int thang,int namthang)
         {
-            return hoaDonDAL.TinhDoanhThuNgay(ngay);
+            return hoaDonDAL.GetDoanhThuTheoNgayDAL(thang,namthang);
+        }
+
+        public List<DoanhThuTheoNamDTO> GetDoanhThuTheoNamBLL(int nam)
+        {
+            return hoaDonDAL.GetDoanhThuTheoNamDAL(nam);
         }
 
 

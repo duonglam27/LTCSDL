@@ -76,6 +76,7 @@ namespace GUI
                     if (xoaDanhMucMonThanhCong)
                     {
                         MessageBox.Show("Xoá danh mục món thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LoadDanhMuc();
                     }
                     else
                     {
@@ -101,6 +102,7 @@ namespace GUI
             else
             {
                 MessageBox.Show("Vui lòng chọn danh mục món cần sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                LoadDanhMuc();
             }
             
         }

@@ -67,5 +67,28 @@ namespace DAL
             int resultAdd = MyExecuteNonQuery(sql, CommandType.Text, parameters);
             return resultAdd > 0;
         }
+
+        public List<CongThucDTO> GetNguyenLieuTheoMon(int monID)
+        {
+            List<CongThucDTO> list = new List<CongThucDTO>();
+            string sql = "SELECT * FROM CongThuc WHERE MonID = @MonID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@MonID", monID)
+            };
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text, parameters))
+            {
+                while (reader.Read())
+                {
+                    int congThucID = Convert.ToInt32(reader["CongThucID"]);
+                    int nguyenLieuID = Convert.ToInt32(reader["NguyenLieuID"]);
+                    int dinhLuong = Convert.ToInt32(reader["DinhLuong"]);
+                    CongThucDTO ct = new CongThucDTO(congThucID, monID, nguyenLieuID, dinhLuong);
+                    list.Add(ct);
+                }
+            }
+
+            return list;
+        }
     }
 }

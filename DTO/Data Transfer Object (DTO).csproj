@@ -54,6 +54,8 @@
     <Compile Include="ComboDTO.cs" />
     <Compile Include="CongThucDTO.cs" />
     <Compile Include="DanhMucDTO.cs" />
+    <Compile Include="DoanhThuTheoNamDTO.cs" />
+    <Compile Include="DoanhThuTheoNgayDTO.cs" />
     <Compile Include="HoaDonDTO.cs" />
     <Compile Include="KhachHangDTO.cs" />
     <Compile Include="KhoTonDTO.cs" />

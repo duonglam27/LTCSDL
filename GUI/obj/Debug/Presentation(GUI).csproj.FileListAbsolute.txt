@@ -24,3 +24,6 @@ D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\System.Configuration.Configur
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\System.Configuration.ConfigurationManager.xml
 D:\LapTrinhCSDL\Project Thực Hành\GUI\bin\Debug\Presentation(GUI).exe.config
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormGhiChuHoaDon.resources
+D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormDangKiKhachHang.resources
+D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormNhapSDTKhachHang.resources
+D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormDanhSachBanTrong.resources

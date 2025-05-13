@@ -53,6 +53,7 @@
     <Compile Include="DataProvider.cs" />
     <Compile Include="HoaDonDAL.cs" />
     <Compile Include="KhachHangDAL.cs" />
+    <Compile Include="KhoTonDAL.cs" />
     <Compile Include="LoginDAL.cs" />
     <Compile Include="MonDAL.cs" />
     <Compile Include="NguyenLieuDAL.cs" />

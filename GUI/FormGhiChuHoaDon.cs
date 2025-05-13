@@ -44,13 +44,34 @@ namespace GUI
         public void NhapSDTKhachHang()
         {
             string sdt = txtSDTKhachHang.Text.Trim();
-            KhachHangDTO khachHang=khachHangBLL.KiemTraSDTKhachHang(sdt);
+            KhachHangDTO khachHang = khachHangBLL.KiemTraSDTKhachHang(sdt);
+
             if (khachHang != null)
             {
                 this.khachHangID = khachHang.KhachHangID;
+                MessageBox.Show($"Đã tìm thấy khách hàng: {khachHang.HoTen}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            
+            else
+            {
+                DialogResult result = MessageBox.Show("Không tìm thấy khách hàng với số điện thoại này. Bạn có muốn đăng ký khách hàng mới không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    FormDangKiKhachHang frmDangKy = new FormDangKiKhachHang();
+                    frmDangKy.SoDienThoai = sdt;
+                    frmDangKy.ShowDialog();
+                        
+                }
+                else
+                {
+                    MessageBox.Show("Bạn đã chọn không đăng ký. Tiếp tục với khách hàng ID = 0.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.khachHangID = 0;
+                }
+            }
         }
+
+ 
+
 
         private void btXacNhan_Click(object sender, EventArgs e)
         {
