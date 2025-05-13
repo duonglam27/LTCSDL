@@ -81,6 +81,18 @@
     <Compile Include="FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLuong.Designer.cs">
+      <DependentUpon>FormLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhapKho.Designer.cs">
+      <DependentUpon>FormNhapKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormNhapSDTKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +146,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLuong.resx">
+      <DependentUpon>FormLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhapKho.resx">
+      <DependentUpon>FormNhapKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNhapSDTKhachHang.resx">
       <DependentUpon>FormNhapSDTKhachHang.cs</DependentUpon>

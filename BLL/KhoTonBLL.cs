@@ -35,5 +35,10 @@ namespace BLL
         {
             return khoTonDAL.XoaKhoTonDAL(khoTonID);
         }
+
+        public bool CongSoLuongTon(int nguyenLieuID, int soLuongThem)
+        {
+            return khoTonDAL.CapNhatSoLuongTon(nguyenLieuID, soLuongThem);
+        }
     }
 }

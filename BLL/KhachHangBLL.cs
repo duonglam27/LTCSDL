@@ -49,8 +49,12 @@ namespace BLL
             return khachHangDAL.SuaKhachHangDAL(khachHangID, hoTen, sdt, diemTichLuy);
         }
 
-        
-       
+        public List<KhachHangDTO> GetKhachHangBLL()
+        {
+            return khachHangDAL.GetKhachHangDAL();
+        }
+
+
 
     }
 }

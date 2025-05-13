@@ -47,6 +47,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnThongTinCaNhan = new System.Windows.Forms.Button();
+            this.btnNhapKho = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -75,7 +76,7 @@
             // btnOrder
             // 
             this.btnOrder.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnOrder.Location = new System.Drawing.Point(41, 135);
+            this.btnOrder.Location = new System.Drawing.Point(41, 116);
             this.btnOrder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(200, 48);
@@ -87,7 +88,7 @@
             // btnQuanLy
             // 
             this.btnQuanLy.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnQuanLy.Location = new System.Drawing.Point(41, 274);
+            this.btnQuanLy.Location = new System.Drawing.Point(41, 281);
             this.btnQuanLy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuanLy.Name = "btnQuanLy";
             this.btnQuanLy.Size = new System.Drawing.Size(200, 48);
@@ -99,7 +100,7 @@
             // btnChamCong
             // 
             this.btnChamCong.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnChamCong.Location = new System.Drawing.Point(41, 68);
+            this.btnChamCong.Location = new System.Drawing.Point(41, 61);
             this.btnChamCong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnChamCong.Name = "btnChamCong";
             this.btnChamCong.Size = new System.Drawing.Size(200, 48);
@@ -139,7 +140,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button1.Location = new System.Drawing.Point(41, 206);
+            this.button1.Location = new System.Drawing.Point(41, 171);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 48);
@@ -173,11 +174,24 @@
             this.btnThongTinCaNhan.UseVisualStyleBackColor = true;
             this.btnThongTinCaNhan.Click += new System.EventHandler(this.btnThongTinCaNhan_Click);
             // 
+            // btnNhapKho
+            // 
+            this.btnNhapKho.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnNhapKho.Location = new System.Drawing.Point(41, 226);
+            this.btnNhapKho.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNhapKho.Name = "btnNhapKho";
+            this.btnNhapKho.Size = new System.Drawing.Size(200, 48);
+            this.btnNhapKho.TabIndex = 6;
+            this.btnNhapKho.Text = "Nhập kho";
+            this.btnNhapKho.UseVisualStyleBackColor = true;
+            this.btnNhapKho.Click += new System.EventHandler(this.btnNhapKho_Click);
+            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 360);
+            this.Controls.Add(this.btnNhapKho);
             this.Controls.Add(this.panelLogo);
             this.Controls.Add(this.lbWelcome);
             this.Controls.Add(this.btnThongTinCaNhan);
@@ -209,5 +223,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Button btnThongTinCaNhan;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnNhapKho;
     }
 }

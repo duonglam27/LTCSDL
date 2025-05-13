@@ -15,6 +15,11 @@ namespace BLL
         {
             hoaDonDAL = new HoaDonDAL();
         }
+
+        public List<HoaDonDTO> LayDanhSachHoaDon()
+        {
+            return hoaDonDAL.GetAllHoaDon();
+        }
         public bool ThemHoaDonBLL(DateTime ngayLap, int banID, int tongTien, string trangThai, int nhanVienID, int khachHangID, string ghiChu)
         {
             return hoaDonDAL.ThemHoaDonDAL(ngayLap, banID, tongTien, trangThai, nhanVienID, khachHangID,ghiChu);
@@ -29,7 +34,19 @@ namespace BLL
         {
             return hoaDonDAL.GetDoanhThuTheoNamDAL(nam);
         }
+        public bool CapNhatHoaDon(HoaDonDTO hoaDon)
+        {
+            return hoaDonDAL.CapNhatHoaDon(hoaDon);
+        }
 
+        public bool XoaHoaDon(int id)
+        {
+            return hoaDonDAL.XoaHoaDon(id);
+        }
+        public HoaDonDTO LayHoaDonTheoID(int id)
+        {
+            return hoaDonDAL.GetHoaDonByID(id);
+        }
 
     }
 }

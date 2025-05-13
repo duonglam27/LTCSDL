@@ -27,3 +27,5 @@ D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormGhiChuHoaDon.resource
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormDangKiKhachHang.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormNhapSDTKhachHang.resources
 D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormDanhSachBanTrong.resources
+D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormLuong.resources
+D:\LapTrinhCSDL\Project Thực Hành\GUI\obj\Debug\GUI.FormNhapKho.resources

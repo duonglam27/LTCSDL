@@ -11,6 +11,54 @@ namespace DAL
 {
     public class ChiTietHoaDonDAL:DataProvider
     {
+        public List<ChiTietHoaDonDTO> GetAllChiTietHoaDon()
+        {
+            List<ChiTietHoaDonDTO> list = new List<ChiTietHoaDonDTO>();
+            string sql = "SELECT * FROM ChiTietHoaDon";
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text))
+            {
+                while (reader.Read())
+                {
+                    ChiTietHoaDonDTO ct = new ChiTietHoaDonDTO(
+                        Convert.ToInt32(reader["ChiTietHoaDonID"]),
+                        Convert.ToInt32(reader["HoaDonID"]),
+                        Convert.ToInt32(reader["MonID"]),
+                        Convert.ToInt32(reader["SoLuong"]),
+                        Convert.ToInt32(reader["DonGia"])
+                    );
+                    list.Add(ct);
+                }
+            }
+            return list;
+        }
+
+        public List<ChiTietHoaDonDTO> GetChiTietByHoaDonID(int hoaDonID)
+        {
+            List<ChiTietHoaDonDTO> list = new List<ChiTietHoaDonDTO>();
+            string sql = "SELECT * FROM ChiTietHoaDon WHERE HoaDonID = @HoaDonID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@HoaDonID", hoaDonID)
+            };
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text, parameters))
+            {
+                while (reader.Read())
+                {
+                    ChiTietHoaDonDTO ct = new ChiTietHoaDonDTO(
+                        Convert.ToInt32(reader["ChiTietHoaDonID"]),
+                        Convert.ToInt32(reader["HoaDonID"]),
+                        Convert.ToInt32(reader["MonID"]),
+                        Convert.ToInt32(reader["SoLuong"]),
+                        Convert.ToInt32(reader["DonGia"])
+                    );
+                    list.Add(ct);
+                }
+            }
+
+            return list;
+        }
+
         public bool ThemChiTietHoaDonDAL(int hoaDonID, int monID, int soLuong, int donGia)
         {
             string sql = "INSERT INTO ChiTietHoaDon (HoaDonID, MonID, SoLuong, DonGia) " +
@@ -37,6 +85,16 @@ namespace DAL
             }
 
             return true;
+        }
+        public bool XoaChiTietHoaDon(int chiTietID)
+        {
+            string sql = "DELETE FROM ChiTietHoaDon WHERE ChiTietHoaDonID = @ChiTietHoaDonID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@ChiTietHoaDonID", chiTietID)
+            };
+
+            int result = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return result > 0;
         }
 
 

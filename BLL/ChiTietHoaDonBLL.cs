@@ -15,9 +15,23 @@ namespace BLL
         {
             chiTietHoaDonDAL = new ChiTietHoaDonDAL();
         }
+
+        public List<ChiTietHoaDonDTO> LayTatCaChiTiet()
+        {
+            return chiTietHoaDonDAL.GetAllChiTietHoaDon();
+        }
+
+        public List<ChiTietHoaDonDTO> LayChiTietTheoHoaDonID(int hoaDonID)
+        {
+            return chiTietHoaDonDAL.GetChiTietByHoaDonID(hoaDonID);
+        }
         public bool ThemChiTietHoaDonBLL(int hoaDonID, int monID, int soLuong, int donGia)
         {
             return chiTietHoaDonDAL.ThemChiTietHoaDonDAL(hoaDonID, monID, soLuong, donGia);
+        }
+        public bool XoaChiTiet(int chiTietID)
+        {
+            return chiTietHoaDonDAL.XoaChiTietHoaDon(chiTietID);
         }
     }
 }

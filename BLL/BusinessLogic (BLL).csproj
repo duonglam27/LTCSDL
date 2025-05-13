@@ -49,16 +49,20 @@
     <Compile Include="BanHangBLL.cs" />
     <Compile Include="ChamCongBLL.cs" />
     <Compile Include="ChiTietHoaDonBLL.cs" />
+    <Compile Include="ChiTietNhapKhoBLL.cs" />
     <Compile Include="CongThucBLL.cs" />
     <Compile Include="DanhMucBLL.cs" />
     <Compile Include="HoaDonBLL.cs" />
     <Compile Include="KhachHangBLL.cs" />
     <Compile Include="KhoTonBLL.cs" />
     <Compile Include="LoginBLL.cs" />
+    <Compile Include="LuongBLL.cs" />
     <Compile Include="MonBLL.cs" />
     <Compile Include="NguyenLieuBLL.cs" />
     <Compile Include="NhanVienBLL.cs" />
+    <Compile Include="NhapKhoBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoanBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DataAccess %28DAL%29.csproj">

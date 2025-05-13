@@ -220,14 +220,14 @@ namespace GUI
             string tenMon = row.Cells["TenMon"].Value.ToString();
             int giaMon = Convert.ToInt32(row.Cells["Gia"].Value);
 
-            // Giả sử bạn đã có khachHangID từ trước (khi nhập SDT chẳng hạn)
+            
             if (khachHangID == 0)
             {
                 MessageBox.Show("Bạn cần chọn khách hàng trước khi đổi điểm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            int diemKH = khachHangBLL.LayDiemTichLuy(khachHangID); // viết thêm hàm này trong BLL
+            int diemKH = khachHangBLL.LayDiemTichLuy(khachHangID); 
 
             if (giaMon > diemKH)
             {
@@ -238,7 +238,7 @@ namespace GUI
             DialogResult xacNhan = MessageBox.Show($"Bạn có chắc muốn đổi {giaMon} điểm để lấy món: {tenMon}?", "Xác nhận", MessageBoxButtons.YesNo);
             if (xacNhan == DialogResult.Yes)
             {
-                // Tạo hóa đơn đổi điểm
+                // tạo hóa đơn đổi điểm
                 DateTime ngayLap = DateTime.Now;
                 int nhanVienID = Session.NhanVienID;
                 int banID = 0;

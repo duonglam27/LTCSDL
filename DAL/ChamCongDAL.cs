@@ -29,12 +29,14 @@ namespace DAL
             string sql = "UPDATE ChamCong SET GioRa = @GioRa " +
                          "WHERE NhanVienID = @NhanVienID " +
                          "AND GioRa IS NULL " +
-                         "AND CAST(Ngay AS DATE) = CAST(GETDATE() AS DATE)";
+                         "AND Ngay IS NOT NULL " + 
+                         "AND CAST(Ngay AS DATE) = CAST(GETDATE() AS DATE)";  
 
-                SqlParameter[] parameters = {
-                new SqlParameter("@GioRa", DateTime.Now),
+            SqlParameter[] parameters = {
+                new SqlParameter("@GioRa", DateTime.Now),  
                 new SqlParameter("@NhanVienID", nhanVienID)
             };
+
             return MyExecuteNonQuery(sql, CommandType.Text, parameters);
         }
 
@@ -51,6 +53,32 @@ namespace DAL
             int count = Convert.ToInt32(result);
             return count > 0;
         }
+        public ChamCongDTO GetChamCongVao(int nhanVienID)
+        {
+            string sql = @"SELECT * FROM ChamCong WHERE NhanVienID = @NhanVienID AND Ngay = @Ngay AND GioRa IS NULL";
+            SqlParameter[] parameters = {
+                new SqlParameter("@NhanVienID", nhanVienID),
+                new SqlParameter("@Ngay", DateTime.Today)
+            };
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text, parameters))
+            {
+                if (reader.Read())
+                {
+                    return new ChamCongDTO(
+                        chamCongID: Convert.ToInt32(reader["ChamCongID"]),  
+                        nhanVienID: Convert.ToInt32(reader["NhanVienID"]),  
+                        ngay: Convert.ToDateTime(reader["Ngay"]),  
+                        gioVao: Convert.ToDateTime(reader["GioVao"]), 
+                        gioRa: reader["GioRa"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(reader["GioRa"]),  
+                        ghiChu: reader["GhiChu"].ToString()  
+                    );
+                }
+            }
+            return null;
+        }
+
+
 
         public List<ChamCongDTO> GetDanhSachChamCongDAL()
         {

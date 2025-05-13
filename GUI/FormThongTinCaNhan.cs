@@ -80,7 +80,8 @@ namespace GUI
 
         private void btnXemLuong_Click(object sender, EventArgs e)
         {
-
+            FormLuong frmLuong = new FormLuong();
+            frmLuong.ShowDialog();
         }
     }
 }

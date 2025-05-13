@@ -66,5 +66,11 @@ namespace GUI
             Application.Restart();
 
         }
+
+        private void btnNhapKho_Click(object sender, EventArgs e)
+        {
+            FormNhapKho frmNhapKho = new FormNhapKho();
+            frmNhapKho.ShowDialog();
+        }
     }
 }

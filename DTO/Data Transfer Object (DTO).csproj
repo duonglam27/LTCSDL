@@ -60,6 +60,7 @@
     <Compile Include="KhachHangDTO.cs" />
     <Compile Include="KhoTonDTO.cs" />
     <Compile Include="KhuyenMaiDTO.cs" />
+    <Compile Include="LuongDTO.cs" />
     <Compile Include="MonDTO.cs" />
     <Compile Include="NguyenLieuDTO.cs" />
     <Compile Include="NhaCungCapDTO.cs" />

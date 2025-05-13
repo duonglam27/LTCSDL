@@ -3,116 +3,100 @@
   "WorkspaceRootPath": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formdanhsachbantrong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formdanhsachbantrong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\bandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\bandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\banbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\banbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formdanhsachbantrong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formdanhsachbantrong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formghichuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formghichuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\khachhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\khachhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\hoadonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\hoadonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\banhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\banhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\khotondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\khotondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\congthucdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\congthucdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\congthucbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\congthucbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\congthucdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\congthucdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\chamcongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\chamcongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\khotonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\khotonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\monbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\monbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\khotondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\khotondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\doanhthutheongaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\doanhthutheongaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\doanhthutheonamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\doanhthutheonamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formthongtincanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formchamcong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\chamcongdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\chamcongdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{50E2CA64-AD0F-46FB-85AC-AD51C2109C57}|GUI\\Presentation(GUI).csproj|solutionrelative:gui\\formquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\nhapkhobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\nhapkhobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\nhapkhodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\nhapkhodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\khotonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\khotonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\khachhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\khachhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\taikhoandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\taikhoandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\logindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\logindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\loginbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\loginbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\nhanvienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\nhanvienbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\chitiethoadonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\chitiethoadonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\chitiethoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\chitiethoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\chitiethoadondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\chitiethoadondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\hoadonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\hoadonbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\hoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\hoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dto\\hoadondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3FB588-34B8-4648-BCE2-2065B616855A}|DTO\\Data Transfer Object (DTO).csproj|solutionrelative:dto\\hoadondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\chitietnhapkhodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\chitietnhapkhodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\dal\\chamcongdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5E8B4C-E8E6-4FFC-989C-1A337C02258E}|DAL\\DataAccess (DAL).csproj|solutionrelative:dal\\chamcongdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|d:\\laptrinhcsdl\\project th\u1EF1c h\u00E0nh\\bll\\chamcongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA30D2CC-DFF2-42DD-BE01-542499266171}|BLL\\BusinessLogic (BLL).csproj|solutionrelative:bll\\chamcongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,362 +114,314 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormOrder.cs [Design]",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormOrder.cs",
-              "RelativeDocumentMoniker": "GUI\\FormOrder.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormOrder.cs [Design]",
-              "RelativeToolTip": "GUI\\FormOrder.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:37:27.24Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormOrder.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormOrder.cs",
-              "RelativeDocumentMoniker": "GUI\\FormOrder.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormOrder.cs",
-              "RelativeToolTip": "GUI\\FormOrder.cs",
-              "ViewState": "AgIAABAAAABwMjMzM5MwwCcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:37:28.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BanBLL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\BanBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\BanBLL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\BanBLL.cs",
-              "RelativeToolTip": "BLL\\BanBLL.cs",
-              "ViewState": "AgIAAB0AAACAZmZmZmYewDEAAABAAAAAAAAAAA==",
+              "Title": "NhapKhoDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\NhapKhoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NhapKhoDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\NhapKhoDAL.cs",
+              "RelativeToolTip": "DAL\\NhapKhoDAL.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAABQPQ0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T12:14:22.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormDanhSachBanTrong.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormDanhSachBanTrong.cs",
-              "RelativeDocumentMoniker": "GUI\\FormDanhSachBanTrong.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormDanhSachBanTrong.cs*",
-              "RelativeToolTip": "GUI\\FormDanhSachBanTrong.cs*",
-              "ViewState": "AgIAACEAAAAAoJmZmZn5vykAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T12:16:49.344Z",
+              "WhenOpened": "2025-05-13T20:32:38.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BanDAL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\BanDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\BanDAL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\BanDAL.cs",
-              "RelativeToolTip": "DAL\\BanDAL.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAUwEUAAABEAAAAAAAAAA==",
+              "Title": "NhapKhoBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\NhapKhoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhapKhoBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\NhapKhoBLL.cs*",
+              "RelativeToolTip": "BLL\\NhapKhoBLL.cs*",
+              "ViewState": "AgIAAAIAAAAAMjMzMzMbwBMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T12:09:24.233Z",
+              "WhenOpened": "2025-05-13T20:31:54.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormDanhSachBanTrong.cs [Design]",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormDanhSachBanTrong.cs",
-              "RelativeDocumentMoniker": "GUI\\FormDanhSachBanTrong.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormDanhSachBanTrong.cs [Design]*",
-              "RelativeToolTip": "GUI\\FormDanhSachBanTrong.cs [Design]*",
+              "DocumentIndex": 7,
+              "Title": "TaiKhoanBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\TaiKhoanBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\TaiKhoanBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\TaiKhoanBLL.cs",
+              "RelativeToolTip": "BLL\\TaiKhoanBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T12:07:57.266Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormGhiChuHoaDon.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormGhiChuHoaDon.cs",
-              "RelativeDocumentMoniker": "GUI\\FormGhiChuHoaDon.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormGhiChuHoaDon.cs",
-              "RelativeToolTip": "GUI\\FormGhiChuHoaDon.cs",
-              "ViewState": "AgIAAB4AAADAzMzMzMwhwCUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T12:20:17.657Z",
+              "WhenOpened": "2025-05-13T20:19:58.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "TaiKhoanDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\TaiKhoanDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\TaiKhoanDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\TaiKhoanDAL.cs",
+              "RelativeToolTip": "DAL\\TaiKhoanDAL.cs",
+              "ViewState": "AgIAAEAAAABgAAAAAAAgwAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:19:02.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormQuanLy.cs [Design]",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLy.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs [Design]*",
+              "RelativeToolTip": "GUI\\FormQuanLy.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:38:39.866Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormQuanLy.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs",
+              "RelativeDocumentMoniker": "GUI\\FormQuanLy.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs*",
+              "RelativeToolTip": "GUI\\FormQuanLy.cs*",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAALMBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:38:40.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "KhachHangBLL.cs",
               "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\KhachHangBLL.cs",
               "RelativeDocumentMoniker": "BLL\\KhachHangBLL.cs",
               "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\KhachHangBLL.cs",
               "RelativeToolTip": "BLL\\KhachHangBLL.cs",
-              "ViewState": "AgIAABIAAADgZWZmZmY4wCEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAACAyszMzMw/wDMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:32:13.209Z",
+              "WhenOpened": "2025-05-13T20:23:34.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormLogin.cs [Design]",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormLogin.cs",
-              "RelativeDocumentMoniker": "GUI\\FormLogin.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormLogin.cs [Design]",
-              "RelativeToolTip": "GUI\\FormLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:44:49.077Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KhachHangDAL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\KhachHangDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\KhachHangDAL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\KhachHangDAL.cs",
-              "RelativeToolTip": "DAL\\KhachHangDAL.cs",
-              "ViewState": "AgIAADcAAAAAzszMzMwowEcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:28:55.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HoaDonBLL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\HoaDonBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\HoaDonBLL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\HoaDonBLL.cs",
-              "RelativeToolTip": "BLL\\HoaDonBLL.cs",
-              "ViewState": "AgIAAAgAAAAAMTMzMzMrwAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:37:00.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BanHangBLL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\BanHangBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\BanHangBLL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\BanHangBLL.cs",
-              "RelativeToolTip": "BLL\\BanHangBLL.cs",
-              "ViewState": "AgIAAAMAAAB4MjMzMzMtwBkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:35:06.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CongThucDAL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\CongThucDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\CongThucDAL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\CongThucDAL.cs",
-              "RelativeToolTip": "DAL\\CongThucDAL.cs",
-              "ViewState": "AgIAAEUAAAAAmpmZmZkZwFsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:29:55.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CongThucBLL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\CongThucBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\CongThucBLL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\CongThucBLL.cs",
-              "RelativeToolTip": "BLL\\CongThucBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:29:54.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CongThucDTO.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\CongThucDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\CongThucDTO.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\CongThucDTO.cs",
-              "RelativeToolTip": "DTO\\CongThucDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:28:58.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
               "Title": "KhoTonBLL.cs",
               "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\KhoTonBLL.cs",
               "RelativeDocumentMoniker": "BLL\\KhoTonBLL.cs",
               "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\KhoTonBLL.cs",
               "RelativeToolTip": "BLL\\KhoTonBLL.cs",
-              "ViewState": "AgIAAA8AAABg//////8nwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAZWZmZmYkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:25:38.352Z",
+              "WhenOpened": "2025-05-13T19:42:16.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MonBLL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\MonBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\MonBLL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\MonBLL.cs",
-              "RelativeToolTip": "BLL\\MonBLL.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "KhachHangDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\KhachHangDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\KhachHangDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\KhachHangDAL.cs",
+              "RelativeToolTip": "DAL\\KhachHangDAL.cs",
+              "ViewState": "AgIAADsAAAAAl5mZmZktwEsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:24:53.993Z",
+              "WhenOpened": "2025-05-13T20:25:18.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaiKhoanDTO.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\TaiKhoanDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TaiKhoanDTO.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\TaiKhoanDTO.cs",
+              "RelativeToolTip": "DTO\\TaiKhoanDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAABQPRoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:16:47.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\LoginDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\LoginDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\LoginDAL.cs",
+              "RelativeToolTip": "DAL\\LoginDAL.cs",
+              "ViewState": "AgIAACEAAAAAy8zMzEwnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:16:30.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\LoginBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\LoginBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\LoginBLL.cs",
+              "RelativeToolTip": "BLL\\LoginBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:16:22.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "KhoTonDAL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\KhoTonDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\KhoTonDAL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\KhoTonDAL.cs",
-              "RelativeToolTip": "DAL\\KhoTonDAL.cs",
-              "ViewState": "AgIAAD4AAAAgzMzMzMwwwFEAAAAJAAAAAAAAAA==",
+              "Title": "NhanVienDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\NhanVienDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NhanVienDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\NhanVienDAL.cs",
+              "RelativeToolTip": "DAL\\NhanVienDAL.cs",
+              "ViewState": "AgIAAA0AAACAl5mZmZkVwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:23:22.351Z",
+              "WhenOpened": "2025-05-13T20:14:09.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "KhoTonDTO.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\KhoTonDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\KhoTonDTO.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\KhoTonDTO.cs",
-              "RelativeToolTip": "DTO\\KhoTonDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "NhanVienDTO.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\NhanVienDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\NhanVienDTO.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\NhanVienDTO.cs",
+              "RelativeToolTip": "DTO\\NhanVienDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:19:54.682Z",
+              "WhenOpened": "2025-05-13T20:14:08.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NhanVienBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\NhanVienBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhanVienBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\NhanVienBLL.cs",
+              "RelativeToolTip": "BLL\\NhanVienBLL.cs",
+              "ViewState": "AgIAAAUAAAAgMzMzMzMrwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:14:02.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ChamCongBLL.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\ChamCongBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\ChamCongBLL.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\ChamCongBLL.cs",
-              "RelativeToolTip": "BLL\\ChamCongBLL.cs",
-              "ViewState": "AgIAABwAAACAMDMzM7MZwAAAAAAAAAAAAAAAAA==",
+              "Title": "ChiTietHoaDonDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\ChiTietHoaDonDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ChiTietHoaDonDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\ChiTietHoaDonDAL.cs",
+              "RelativeToolTip": "DAL\\ChiTietHoaDonDAL.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:57:31.753Z",
+              "WhenOpened": "2025-05-13T19:54:39.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChiTietHoaDonDTO.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\ChiTietHoaDonDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ChiTietHoaDonDTO.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\ChiTietHoaDonDTO.cs",
+              "RelativeToolTip": "DTO\\ChiTietHoaDonDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:08:24.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChiTietHoaDonBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\ChiTietHoaDonBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ChiTietHoaDonBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\ChiTietHoaDonBLL.cs",
+              "RelativeToolTip": "BLL\\ChiTietHoaDonBLL.cs",
+              "ViewState": "AgIAAAgAAAAAMjMzMzMbwCEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:10:34.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "DoanhThuTheoNgayDTO.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\DoanhThuTheoNgayDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\DoanhThuTheoNgayDTO.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\DoanhThuTheoNgayDTO.cs",
-              "RelativeToolTip": "DTO\\DoanhThuTheoNgayDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Title": "HoaDonDTO.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\HoaDonDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\HoaDonDTO.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\HoaDonDTO.cs",
+              "RelativeToolTip": "DTO\\HoaDonDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:38:18.249Z",
+              "WhenOpened": "2025-05-13T19:58:21.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HoaDonBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\HoaDonBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\HoaDonBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\HoaDonBLL.cs",
+              "RelativeToolTip": "BLL\\HoaDonBLL.cs",
+              "ViewState": "AgIAAAoAAADA/v///78owC8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:58:26.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HoaDonDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\HoaDonDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\HoaDonDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\HoaDonDAL.cs",
+              "RelativeToolTip": "DAL\\HoaDonDAL.cs",
+              "ViewState": "AgIAAJcAAAAAGAAAAADwv64AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:58:29.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "DoanhThuTheoNamDTO.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\DoanhThuTheoNamDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\DoanhThuTheoNamDTO.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DTO\\DoanhThuTheoNamDTO.cs",
-              "RelativeToolTip": "DTO\\DoanhThuTheoNamDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "ChiTietNhapKhoDAL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\ChiTietNhapKhoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\ChiTietNhapKhoDAL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\ChiTietNhapKhoDAL.cs",
+              "RelativeToolTip": "DAL\\ChiTietNhapKhoDAL.cs",
+              "ViewState": "AgIAAAAAAAAQKzMzMzPrvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:54:19.16Z",
+              "WhenOpened": "2025-05-13T19:54:48.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FormChamCong.cs [Design]",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormChamCong.cs",
-              "RelativeDocumentMoniker": "GUI\\FormChamCong.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormChamCong.cs [Design]",
-              "RelativeToolTip": "GUI\\FormChamCong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:06:24.153Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "FormChamCong.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormChamCong.cs",
-              "RelativeDocumentMoniker": "GUI\\FormChamCong.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormChamCong.cs",
-              "RelativeToolTip": "GUI\\FormChamCong.cs",
-              "ViewState": "AgIAACUAAAAAZGZmZmYSwAAAAAAAAAAAAAAAAA==",
+              "Title": "ChamCongBLL.cs",
+              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\ChamCongBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\ChamCongBLL.cs",
+              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\BLL\\ChamCongBLL.cs",
+              "RelativeToolTip": "BLL\\ChamCongBLL.cs",
+              "ViewState": "AgIAADMAAAAgMDMzMzMywBgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:06:35.586Z",
+              "WhenOpened": "2025-05-13T19:36:59.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "FormThongTinCaNhan.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormThongTinCaNhan.cs",
-              "RelativeDocumentMoniker": "GUI\\FormThongTinCaNhan.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormThongTinCaNhan.cs",
-              "RelativeToolTip": "GUI\\FormThongTinCaNhan.cs",
-              "ViewState": "AgIAADIAAACAzszMzMwmwDoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:06:55.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "ChamCongDAL.cs",
               "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\ChamCongDAL.cs",
               "RelativeDocumentMoniker": "DAL\\ChamCongDAL.cs",
               "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\DAL\\ChamCongDAL.cs",
               "RelativeToolTip": "DAL\\ChamCongDAL.cs",
-              "ViewState": "AgIAAE8AAACAAgAAAEAwwFQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAZmZmZmYkwBAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:56:01.889Z",
+              "WhenOpened": "2025-05-13T19:35:11.83Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FormQuanLy.cs",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs",
-              "RelativeDocumentMoniker": "GUI\\FormQuanLy.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs",
-              "RelativeToolTip": "GUI\\FormQuanLy.cs",
-              "ViewState": "AgIAAGIBAAAArszMzEwuwHEBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:42:17.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FormQuanLy.cs [Design]",
-              "DocumentMoniker": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs",
-              "RelativeDocumentMoniker": "GUI\\FormQuanLy.cs",
-              "ToolTip": "D:\\LapTrinhCSDL\\Project Th\u1EF1c H\u00E0nh\\GUI\\FormQuanLy.cs [Design]",
-              "RelativeToolTip": "GUI\\FormQuanLy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:42:15.973Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

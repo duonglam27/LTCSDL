@@ -18,6 +18,17 @@ namespace GUI
         private MonBLL monBLL;
         private CongThucBLL congThucBLL;
         private NguyenLieuBLL nguyenLieuBLL;
+        private KhoTonBLL khoTonBLL = new KhoTonBLL();
+        private BanBLL banBLL = new BanBLL();
+        private HoaDonBLL hoaDonBLL = new HoaDonBLL();
+        private ChiTietHoaDonBLL cthdBLL = new ChiTietHoaDonBLL();
+        private NhanVienBLL nhanVienBLL = new NhanVienBLL();
+        private ChiTietNhapKhoBLL ctnkBLL = new ChiTietNhapKhoBLL();
+        private TaiKhoanBLL taiKhoanBLL = new TaiKhoanBLL();
+        private KhachHangBLL khachHangBLL = new KhachHangBLL();
+        private ChamCongBLL chamCongBLL = new ChamCongBLL();
+        private NhapKhoBLL nhapKhoBLL = new NhapKhoBLL();
+        
         public FormQuanLy()
         {
             InitializeComponent();
@@ -33,6 +44,16 @@ namespace GUI
             LoadMon();
             LoadCongThuc();
             LoadNguyenLieu();
+            LoadKhoTon();
+            LoadBan();
+            LoadChiTietNhapKho();
+            LoadHoaDon();
+            LoadCTHD();
+            LoadNhanVien();
+            LoadTaiKhoan();
+            LoadKhachHang();
+            LoadDSCong();
+            LoadNhapKho();
         }
 
         private void LoadDanhMuc()
@@ -370,6 +391,50 @@ namespace GUI
             LoadNguyenLieu();
         }
 
+
+        private void LoadKhoTon()
+        {
+            dtgvKhoTon.DataSource = khoTonBLL.GetKhoTonBLL();
+        }
+        private void LoadBan()
+        {
+            dtgvBan.DataSource = banBLL.GetBanBLL();
+        }
+
+        private void LoadChiTietNhapKho()
+        {
+            dtgvCTNK.DataSource = ctnkBLL.LayDanhSachChiTietNhapKho();
+        }
+
+        private void LoadHoaDon()
+        {
+            dtgvHoaDon.DataSource = hoaDonBLL.LayDanhSachHoaDon();
+        }
+
+        private void LoadCTHD()
+        {
+            dtgvCTHD.DataSource = cthdBLL.LayTatCaChiTiet();
+        }
+        private void LoadNhanVien()
+        {
+            dtgvNhanVien.DataSource = nhanVienBLL.GetAllNhanVienBLL();
+        }
+        private void LoadTaiKhoan()
+        {
+            dtgvTaiKhoan.DataSource = taiKhoanBLL.LayDanhSachTaiKhoan();
+        }
+        private void LoadKhachHang()
+        {
+            dtgvKhachHang.DataSource = khachHangBLL.GetKhachHangBLL();
+        }
+        private void LoadDSCong()
+        {
+            dtgvCong.DataSource = chamCongBLL.GetDanhSachChamCongBLL();
+        }
+        private void LoadNhapKho()
+        {
+            dtgvNhapKho.DataSource = nhapKhoBLL.GetNhapKhoBLL();
+        }
         
     }
 }

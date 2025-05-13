@@ -11,6 +11,31 @@ namespace DAL
 {
     public class HoaDonDAL:DataProvider
     {
+
+        public List<HoaDonDTO> GetAllHoaDon()
+        {
+            List<HoaDonDTO> list = new List<HoaDonDTO>();
+            string sql = "SELECT * FROM HoaDon";
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text))
+            {
+                while (reader.Read())
+                {
+                    HoaDonDTO hd = new HoaDonDTO(
+                        Convert.ToInt32(reader["HoaDonID"]),
+                        Convert.ToDateTime(reader["NgayLap"]),
+                        Convert.ToInt32(reader["BanID"]),
+                        Convert.ToInt32(reader["TongTien"]),
+                        reader["TrangThai"].ToString(),
+                        Convert.ToInt32(reader["NhanVienID"]),
+                        Convert.ToInt32(reader["KhachHangID"]),
+                        reader["GhiChu"]?.ToString() ?? ""
+                    );
+                    list.Add(hd);
+                }
+            }
+            return list;
+        }
+
         public bool ThemHoaDonDAL(DateTime ngayLap, int banID, int tongTien, string trangThai, int nhanVienID, int khachHangID,string ghiChu)
         {
             string sql = "INSERT INTO HoaDon (NgayLap, BanID, TongTien, TrangThai, NhanVienID, KhachHangID,GhiChu) " +
@@ -93,7 +118,68 @@ namespace DAL
             return result;
         }
 
+        public bool CapNhatHoaDon(HoaDonDTO hoaDon)
+        {
+            string sql = @"UPDATE HoaDon SET 
+                           NgayLap = @NgayLap, 
+                           BanID = @BanID,
+                           TongTien = @TongTien,
+                           TrangThai = @TrangThai,
+                           NhanVienID = @NhanVienID,
+                           KhachHangID = @KhachHangID,
+                           GhiChu = @GhiChu
+                           WHERE HoaDonID = @HoaDonID";
 
+            SqlParameter[] parameters = {
+                new SqlParameter("@NgayLap", hoaDon.NgayLap),
+                new SqlParameter("@BanID", hoaDon.BanID),
+                new SqlParameter("@TongTien", hoaDon.TongTien),
+                new SqlParameter("@TrangThai", hoaDon.TrangThai),
+                new SqlParameter("@NhanVienID", hoaDon.NhanVienID),
+                new SqlParameter("@KhachHangID", hoaDon.KhachHangID),
+                new SqlParameter("@GhiChu", hoaDon.GhiChu ?? ""),
+                new SqlParameter("@HoaDonID", hoaDon.HoaDonID)
+            };
+
+            int result = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return result > 0;
+        }
+
+        public bool XoaHoaDon(int hoaDonID)
+        {
+            string sql = "DELETE FROM HoaDon WHERE HoaDonID = @HoaDonID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@HoaDonID", hoaDonID)
+            };
+
+            int result = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return result > 0;
+        }
+        public HoaDonDTO GetHoaDonByID(int id)
+        {
+            string sql = "SELECT * FROM HoaDon WHERE HoaDonID = @HoaDonID";
+            SqlParameter[] parameters = {
+                new SqlParameter("@HoaDonID", id)
+            };
+
+            using (SqlDataReader reader = MyExecuteReader(sql, CommandType.Text, parameters))
+            {
+                if (reader.Read())
+                {
+                    return new HoaDonDTO(
+                        Convert.ToInt32(reader["HoaDonID"]),
+                        Convert.ToDateTime(reader["NgayLap"]),
+                        Convert.ToInt32(reader["BanID"]),
+                        Convert.ToInt32(reader["TongTien"]),
+                        reader["TrangThai"].ToString(),
+                        Convert.ToInt32(reader["NhanVienID"]),
+                        Convert.ToInt32(reader["KhachHangID"]),
+                        reader["GhiChu"]?.ToString() ?? ""
+                    );
+                }
+            }
+            return null;
+        }
 
     }
 }

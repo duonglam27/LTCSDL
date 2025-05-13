@@ -80,6 +80,19 @@ namespace DAL
             int rowsAffected = MyExecuteNonQuery(sql, CommandType.Text, parameters);
             return rowsAffected > 0;
         }
+        public bool CapNhatSoLuongTon(int nguyenLieuID, int soLuongThem)
+        {
+            string sql = "UPDATE KhoTon SET SoLuongTon = SoLuongTon + @SoLuongThem WHERE NguyenLieuID = @NguyenLieuID";
+
+            SqlParameter[] parameters = {
+                new SqlParameter("@SoLuongThem", soLuongThem),
+                new SqlParameter("@NguyenLieuID", nguyenLieuID)
+            };
+
+            int rows = MyExecuteNonQuery(sql, CommandType.Text, parameters);
+            return rows > 0;
+        }
+
 
     }
 }

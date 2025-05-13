@@ -48,6 +48,7 @@
     <Compile Include="BanDAL.cs" />
     <Compile Include="ChamCongDAL.cs" />
     <Compile Include="ChiTietHoaDonDAL.cs" />
+    <Compile Include="ChiTietNhapKhoDAL.cs" />
     <Compile Include="CongThucDAL.cs" />
     <Compile Include="DanhMucDAL.cs" />
     <Compile Include="DataProvider.cs" />
@@ -55,10 +56,13 @@
     <Compile Include="KhachHangDAL.cs" />
     <Compile Include="KhoTonDAL.cs" />
     <Compile Include="LoginDAL.cs" />
+    <Compile Include="LuongDAL.cs" />
     <Compile Include="MonDAL.cs" />
     <Compile Include="NguyenLieuDAL.cs" />
     <Compile Include="NhanVienDAL.cs" />
+    <Compile Include="NhapKhoDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoanDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\Data Transfer Object %28DTO%29.csproj">
