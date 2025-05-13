@@ -18,29 +18,20 @@ namespace GUI
         {
             InitializeComponent();
         }
+
         private void FormHome_Load(object sender, EventArgs e)
         {
-            this.Show();
-            this.Enabled = false;
 
-            FormLogin login = new FormLogin();
-            DialogResult result = login.ShowDialog();
-            if (result == DialogResult.OK)
+            if (Session.Role == "Thu Ngân")
             {
-                this.Enabled = true;
-                lbWelcome.Text = "Chào ";
-
+                btnQuanLy.Visible = false;
             }
-            else
-            {
-                Application.Exit();
-            }
+            lbWelcome.Text = "Chào "+Session.Username;
         }
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+            
             FormOrder frmOrder = new FormOrder();
-            //frmOrder.FormClosed += (s, args) => this.Show();
             frmOrder.ShowDialog();
         }
 
@@ -69,6 +60,11 @@ namespace GUI
             frmTTCN.ShowDialog();
         }
 
-        
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+      
+            Application.Restart();
+
+        }
     }
 }

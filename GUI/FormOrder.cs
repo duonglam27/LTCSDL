@@ -92,7 +92,7 @@ namespace GUI
                 ChiTietHoaDonDTO chiTiet = new ChiTietHoaDonDTO(0, 0, monID, soLuong, donGia);
                 danhSachTam.Add(chiTiet);
 
-                listBoxMonDaOrder.Items.Add($"{tenMon} - {donGia:N0} VND");  // Hiển thị tạm vào ListBox bên trái (ds món đã chọn)
+                listBoxMonDaOrder.Items.Add($"{tenMon} - {donGia:N0} VND");  // hiển thị tạm vào ListBox bên trái (ds món đã chọn)
                 int tongTien = danhSachTam.Sum(x => x.DonGia * x.SoLuong);
                 lblTongTien.Text = "Tổng tiền:" +tongTien.ToString()+" VND";
             }
@@ -117,8 +117,8 @@ namespace GUI
                 int banID = FrmGhiChuHoaDon.banID; //hồi sửa thành lấy từ combobox
                 int tongTien = danhSachTam.Sum(x => x.DonGia * x.SoLuong);
                 string trangThai = "Đã thanh toán";
-                int nhanVienID = 1; // giả định hoặc lấy từ login hồi sửa sau
-                int khachHangID = 1; // giả định
+                int nhanVienID = Session.NhanVienID; //hồi sửa sau
+                int khachHangID = FrmGhiChuHoaDon.khachHangID; // hồi sửa sau
                 string ghiChu = FrmGhiChuHoaDon.ghiChu;
 
 
@@ -146,5 +146,16 @@ namespace GUI
             
         }
 
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn hủy order?","Xác nhận hủy",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                listBoxMonDaOrder.Items.Clear();
+                danhSachTam.Clear();
+            }
+        }
     }
 }

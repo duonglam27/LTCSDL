@@ -16,11 +16,14 @@ namespace DTO
 
         public bool TrangThai { get; set; }
 
-        public TaiKhoanDTO(string userName,string passWord)
+        public TaiKhoanDTO(int taiKhoanID, int nhanVienID, string username, string passwordHash, string role, bool trangThai)
         {
-            this.Username = userName;
-            this.PasswordHash = passWord;
+            TaiKhoanID = taiKhoanID;
+            NhanVienID = nhanVienID;
+            Username = username;
+            PasswordHash = passwordHash;
+            Role = role;
+            TrangThai = trangThai;
         }
-
     }
 }

@@ -14,8 +14,6 @@
         private System.Windows.Forms.Label lblTongTien;
         private System.Windows.Forms.Button btnDoiDiem;
         private System.Windows.Forms.Button btnCombo;
-        private System.Windows.Forms.Button btnChonBan;
-        private System.Windows.Forms.Button btnGhiChu;
         private System.Windows.Forms.Button btnThanhToan;
         /// <summary>
         /// Clean up any resources being used.
@@ -49,13 +47,12 @@
             this.dtgvDSMon = new System.Windows.Forms.DataGridView();
             this.btnDoiDiem = new System.Windows.Forms.Button();
             this.btnCombo = new System.Windows.Forms.Button();
-            this.btnChonBan = new System.Windows.Forms.Button();
-            this.btnGhiChu = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.btnHOME = new System.Windows.Forms.Button();
             this.btnTim = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnThemVaoDS = new System.Windows.Forms.Button();
+            this.btnChonBan = new System.Windows.Forms.Button();
             this.pnlOrder.SuspendLayout();
             this.flpMonDaOrder.SuspendLayout();
             this.flpDSMon.SuspendLayout();
@@ -158,22 +155,6 @@
             this.btnCombo.TabIndex = 6;
             this.btnCombo.Text = "Combo";
             // 
-            // btnChonBan
-            // 
-            this.btnChonBan.Location = new System.Drawing.Point(440, 340);
-            this.btnChonBan.Name = "btnChonBan";
-            this.btnChonBan.Size = new System.Drawing.Size(100, 36);
-            this.btnChonBan.TabIndex = 7;
-            this.btnChonBan.Text = "Bàn";
-            // 
-            // btnGhiChu
-            // 
-            this.btnGhiChu.Location = new System.Drawing.Point(550, 340);
-            this.btnGhiChu.Name = "btnGhiChu";
-            this.btnGhiChu.Size = new System.Drawing.Size(100, 36);
-            this.btnGhiChu.TabIndex = 8;
-            this.btnGhiChu.Text = "Ghi chú";
-            // 
             // btnThanhToan
             // 
             this.btnThanhToan.BackColor = System.Drawing.Color.LightGreen;
@@ -189,7 +170,7 @@
             // btnHOME
             // 
             this.btnHOME.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnHOME.Location = new System.Drawing.Point(720, 3);
+            this.btnHOME.Location = new System.Drawing.Point(735, 6);
             this.btnHOME.Name = "btnHOME";
             this.btnHOME.Size = new System.Drawing.Size(100, 34);
             this.btnHOME.TabIndex = 11;
@@ -210,20 +191,31 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(660, 340);
+            this.btnHuy.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnHuy.Location = new System.Drawing.Point(735, 46);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(100, 36);
             this.btnHuy.TabIndex = 9;
             this.btnHuy.Text = "Hủy";
+            this.btnHuy.UseVisualStyleBackColor = false;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnThemVaoDS
             // 
-            this.btnThemVaoDS.Location = new System.Drawing.Point(735, 105);
+            this.btnThemVaoDS.Location = new System.Drawing.Point(500, 379);
             this.btnThemVaoDS.Name = "btnThemVaoDS";
-            this.btnThemVaoDS.Size = new System.Drawing.Size(85, 48);
+            this.btnThemVaoDS.Size = new System.Drawing.Size(150, 44);
             this.btnThemVaoDS.TabIndex = 13;
             this.btnThemVaoDS.Text = "Thêm vào ds";
             this.btnThemVaoDS.Click += new System.EventHandler(this.btnThemVaoDS_Click);
+            // 
+            // btnChonBan
+            // 
+            this.btnChonBan.Location = new System.Drawing.Point(440, 340);
+            this.btnChonBan.Name = "btnChonBan";
+            this.btnChonBan.Size = new System.Drawing.Size(100, 36);
+            this.btnChonBan.TabIndex = 7;
+            this.btnChonBan.Text = "Bàn";
             // 
             // FormOrder
             // 
@@ -243,7 +235,6 @@
             this.Controls.Add(this.btnDoiDiem);
             this.Controls.Add(this.btnCombo);
             this.Controls.Add(this.btnChonBan);
-            this.Controls.Add(this.btnGhiChu);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnThanhToan);
             this.Name = "FormOrder";
@@ -270,5 +261,6 @@
         private System.Windows.Forms.Button btnThemVaoDS;
         private System.Windows.Forms.FlowLayoutPanel flpMonDaOrder;
         private System.Windows.Forms.ListBox listBoxMonDaOrder;
+        private System.Windows.Forms.Button btnChonBan;
     }
 }

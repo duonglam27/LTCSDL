@@ -15,9 +15,14 @@ namespace BLL
         {
             loginDAL = new LoginDAL();
         }
-        public bool Login(TaiKhoanDTO taikhoan)
+        public TaiKhoanDTO Login(string userName, string password)
         {
-            return loginDAL.Login(taikhoan);
+            return loginDAL.Login(userName,password);
         }
+        public bool CapNhatMatKhauBLL(string username, string matKhauCu, string matKhauMoi)
+        {
+            return loginDAL.CapNhatMatKhauDAL(username, matKhauCu, matKhauMoi);
+        }
+
     }
 }

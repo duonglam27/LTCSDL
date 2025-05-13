@@ -46,14 +46,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BanDAL.cs" />
+    <Compile Include="ChamCongDAL.cs" />
     <Compile Include="ChiTietHoaDonDAL.cs" />
     <Compile Include="CongThucDAL.cs" />
     <Compile Include="DanhMucDAL.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="HoaDonDAL.cs" />
+    <Compile Include="KhachHangDAL.cs" />
     <Compile Include="LoginDAL.cs" />
     <Compile Include="MonDAL.cs" />
     <Compile Include="NguyenLieuDAL.cs" />
+    <Compile Include="NhanVienDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -31,5 +31,15 @@ namespace DAL
             return result > 0;
         }
 
+        public decimal TinhDoanhThuNgay(DateTime ngay)
+        {
+            string sql = "SELECT SUM(TongTien) FROM HoaDon WHERE CAST(NgayLap AS DATE) = @Ngay AND TrangThai = N'Đã thanh toán'";
+            SqlParameter[] parameters = { new SqlParameter("@Ngay", ngay) };
+            object result = MyExecuteScalar(sql, CommandType.Text, parameters);
+            return result != DBNull.Value ? Convert.ToDecimal(result) : 0;
+        }
+
+
     }
 }
+

@@ -33,35 +33,32 @@ namespace GUI
                 Application.Exit();
         }
 
-        public bool UserLogin(TaiKhoanDTO taikhoan)
-        {
-            try
-            {
-                return loginBLL.Login(taikhoan);
-            }
-            catch (SqlException )
-            {
-
-                throw;
-            }
-            
-        }
+        
         private void btDangNhap_Click(object sender, EventArgs e)
         {
             string user, pass;
             user = txtTaiKhoan.Text.Trim();
             pass = txtMatKhau.Text;
+            TaiKhoanDTO ketQua=loginBLL.Login(user,pass);
 
-            TaiKhoanDTO taikhoan = new TaiKhoanDTO(user, pass);
-            if (UserLogin(taikhoan))
-            {
+            
+            if (ketQua!=null)
+            {                                                            
+                Session.Username = ketQua.Username;
+                Session.TaiKhoanID = ketQua.TaiKhoanID;
+                Session.NhanVienID = ketQua.NhanVienID;
+                Session.Role = ketQua.Role;
+
                 this.DialogResult = DialogResult.OK;
+                this.Hide();
             }
             else
             {
-                //string msg = "Sai ten tai khoan hoac mat khau";
-                //DialogResult result =MessageBox.Show(msg,"Login",MessageBoxButtons.RetryCancel
+                string msg = "Sai ten tai khoan hoac mat khau";
+                DialogResult result = MessageBox.Show(msg, "Thông báo", MessageBoxButtons.RetryCancel,MessageBoxIcon.Question);
             }
+
+            
         }
     }
 }

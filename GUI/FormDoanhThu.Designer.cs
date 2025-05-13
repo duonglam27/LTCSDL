@@ -32,12 +32,11 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.lbTuDoanhThu = new System.Windows.Forms.Label();
-            this.lbDenDoanhThu = new System.Windows.Forms.Label();
             this.btnThongKe = new System.Windows.Forms.Button();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtTuNgay = new System.Windows.Forms.DateTimePicker();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtDoanhThu = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -56,33 +55,25 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.txtDoanhThu);
             this.panel1.Controls.Add(this.btnThongKe);
-            this.panel1.Controls.Add(this.lbDenDoanhThu);
-            this.panel1.Controls.Add(this.lbTuDoanhThu);
             this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.dtTuNgay);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Location = new System.Drawing.Point(5, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(783, 426);
             this.panel1.TabIndex = 2;
             // 
-            // dataGridView1
+            // btnThongKe
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(773, 383);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(73, 392);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 1;
+            this.btnThongKe.Location = new System.Drawing.Point(670, 45);
+            this.btnThongKe.Name = "btnThongKe";
+            this.btnThongKe.Size = new System.Drawing.Size(101, 26);
+            this.btnThongKe.TabIndex = 5;
+            this.btnThongKe.Text = "Thống kê";
+            this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // dateTimePicker2
             // 
@@ -91,32 +82,31 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker2.TabIndex = 2;
             // 
-            // lbTuDoanhThu
+            // dtTuNgay
             // 
-            this.lbTuDoanhThu.AutoSize = true;
-            this.lbTuDoanhThu.Location = new System.Drawing.Point(23, 397);
-            this.lbTuDoanhThu.Name = "lbTuDoanhThu";
-            this.lbTuDoanhThu.Size = new System.Drawing.Size(23, 16);
-            this.lbTuDoanhThu.TabIndex = 3;
-            this.lbTuDoanhThu.Text = "Từ";
+            this.dtTuNgay.Location = new System.Drawing.Point(571, 17);
+            this.dtTuNgay.Name = "dtTuNgay";
+            this.dtTuNgay.Size = new System.Drawing.Size(200, 22);
+            this.dtTuNgay.TabIndex = 1;
             // 
-            // lbDenDoanhThu
+            // dataGridView1
             // 
-            this.lbDenDoanhThu.AutoSize = true;
-            this.lbDenDoanhThu.Location = new System.Drawing.Point(279, 397);
-            this.lbDenDoanhThu.Name = "lbDenDoanhThu";
-            this.lbDenDoanhThu.Size = new System.Drawing.Size(30, 16);
-            this.lbDenDoanhThu.TabIndex = 4;
-            this.lbDenDoanhThu.Text = "đến";
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(349, 383);
+            this.dataGridView1.TabIndex = 0;
             // 
-            // btnThongKe
+            // txtDoanhThu
             // 
-            this.btnThongKe.Location = new System.Drawing.Point(557, 392);
-            this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(101, 26);
-            this.btnThongKe.TabIndex = 5;
-            this.btnThongKe.Text = "Thống kê";
-            this.btnThongKe.UseVisualStyleBackColor = true;
+            this.txtDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDoanhThu.Location = new System.Drawing.Point(18, 19);
+            this.txtDoanhThu.Multiline = true;
+            this.txtDoanhThu.Name = "txtDoanhThu";
+            this.txtDoanhThu.Size = new System.Drawing.Size(313, 83);
+            this.txtDoanhThu.TabIndex = 6;
             // 
             // FormDoanhThu
             // 
@@ -140,10 +130,9 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnThongKe;
-        private System.Windows.Forms.Label lbDenDoanhThu;
-        private System.Windows.Forms.Label lbTuDoanhThu;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtTuNgay;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txtDoanhThu;
     }
 }

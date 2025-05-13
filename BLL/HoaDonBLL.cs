@@ -19,6 +19,11 @@ namespace BLL
         {
             return hoaDonDAL.ThemHoaDonDAL(ngayLap, banID, tongTien, trangThai, nhanVienID, khachHangID,ghiChu);
         }
+        public decimal TinhDoanhThuNgayBLL(DateTime ngay)
+        {
+            return hoaDonDAL.TinhDoanhThuNgay(ngay);
+        }
+
 
     }
 }

@@ -46,13 +46,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BanBLL.cs" />
+    <Compile Include="ChamCongBLL.cs" />
     <Compile Include="ChiTietHoaDonBLL.cs" />
     <Compile Include="CongThucBLL.cs" />
     <Compile Include="DanhMucBLL.cs" />
     <Compile Include="HoaDonBLL.cs" />
+    <Compile Include="KhachHangBLL.cs" />
     <Compile Include="LoginBLL.cs" />
     <Compile Include="MonBLL.cs" />
     <Compile Include="NguyenLieuBLL.cs" />
+    <Compile Include="NhanVienBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,13 +10,13 @@ namespace DTO
     {
         public int ChamCongID { get; set; }
         public int NhanVienID { get; set; }
-        public DateTime Ngay { get; set; }
+        public DateTime? Ngay { get; set; }
 
-        public DateTime GioVao{ get; set; }
-        public DateTime GioRa { get; set; }
+        public DateTime? GioVao{ get; set; }
+        public DateTime? GioRa { get; set; }
         public string GhiChu { get; set; }
 
-        public ChamCongDTO(int chamCongID, int nhanVienID, DateTime ngay, DateTime gioVao, DateTime gioRa, string ghiChu)
+        public ChamCongDTO(int chamCongID, int nhanVienID, DateTime ngay, DateTime? gioVao, DateTime? gioRa, string ghiChu)
         {
             ChamCongID = chamCongID;
             NhanVienID = nhanVienID;
